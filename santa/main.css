@@ -1,0 +1,162 @@
+body {
+    width: 600px;
+    margin: auto;
+    background-image: url(bgs/postal_bg_m.gif);
+}
+
+header, #header, #main, #box {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 20px;
+}
+
+#musicTab {
+    left: -255px;
+    top: 50px;
+    position: fixed;
+    z-index: 2;
+    height: 250px;
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    
+    border-image-slice: 33 10 10 33 fill;
+    border-image-width: 33px 10px 10px 33px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url(brdrs/postal_letter_brdr.png);
+    border-style: solid;
+}
+
+#musicTab:hover {
+    left: 0;
+    animation: pullout 0.5s ease;
+}
+
+@keyframes pullout {
+    0% { left: -255px;}
+    100% { left: 0;}
+}
+
+header {
+    color: black;
+    font-size: 28px;
+    font-weight: 700;
+    text-shadow: 
+        var(--white) 2px 2px, 
+        var(--white) -2px 2px,
+        var(--white) 2px -2px,
+        var(--white) -2px -2px;
+    text-align: center;
+}
+
+/* For nav and content layout */
+#main {
+    width: 100%;
+    display: flex;
+    gap: 6px;
+}
+
+/* For content only layout */
+#box {
+    width: 100%;
+}
+
+/* Used for normal titles */
+h1 {
+    font-size: 15px;
+    font-weight: 700;
+    text-shadow: 
+        var(--white) 1px 1px,
+        var(--white) -1px 1px,
+        var(--white) 1px -1px,
+        var(--white) -1px -1px;
+    background-color: var(--accent);
+    margin-top: 6px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 1px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* Used for titles that don't scroll */
+h4 {
+    font-size: 15px;
+    font-weight: 700;
+    text-shadow: 
+        var(--white) 1px 1px,
+        var(--white) -1px 1px,
+        var(--white) 1px -1px,
+        var(--white) -1px -1px;
+    background-color: var(--accent);
+    margin-top: 6px;
+    padding: 3px;
+    border-bottom: 1px solid black;
+    border-radius: 1px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.scrollbox {
+    border: 1px solid black;
+    border-radius: 1px;
+    max-height: 200px;
+    overflow: scroll;
+    text-align: center; 
+    margin-top: 0;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+}
+
+.emph {
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.small {
+    font-size: 12px;
+}
+
+.content {
+    border-image-slice: 33 10 10 33 fill;
+    border-image-width: 33px 10px 10px 33px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url(brdrs/postal_tab_brdr.png);
+    border-style: solid;
+    
+    max-width: 600px;
+    min-width: 600px;
+    padding: 8px;
+    margin-bottom: 6px;
+}
+
+.footer {
+    width: 500px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 60px;
+    
+    border-image-slice: 33 10 10 33 fill;
+    border-image-width: 33px 10px 10px 33px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url(brdrs/postal_letter_brdr.png);
+    border-style: solid;
+}

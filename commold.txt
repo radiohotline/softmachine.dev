@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link href="house.css" rel="stylesheet">
+    <meta charset="unicode">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Art</title>
+    <style>
+        .container {
+            padding: 0%;
+        }
+
+        div {
+            text-align: center;
+        }
+
+        p, li {
+	    text-align: left;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+	
+	li {
+  	    margin: 20px 0;
+	}
+
+	table {
+	    #empty-cells: hide;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	
+	table, th, td {
+  	    border: 1px solid black;
+  	    border-collapse: collapse;
+	}
+
+	th, td {
+	    padding: 10px;
+	}
+
+        @media (max-width: 400px) {
+            img {
+                width: 150px;
+                height: 150px;
+            }
+
+            div {
+                display: inline-block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+    <h1>Soft Machine</h1>
+    <h1>Soft Machine</h1>
+    <span style="font-weight: bold;">
+        <a href="house.html">home</a>&emsp;&emsp;
+        <a href="about.html">about</a>&emsp;&emsp;
+        <a href="../thoughts.html">thoughts</a>&emsp;&emsp;
+        <a href="poetry.html">poetry</a>&emsp;&emsp;
+        <a href="art.html">art</a>&emsp;&emsp;
+        <a href="../music.html">music</a>&emsp;&emsp;
+        <a href="books.html">library</a>&emsp;&emsp;
+        <a href="projects.html">projects</a>&emsp;&emsp;
+	<a href="links.html">links</a>&emsp;&emsp;
+    </span>
+    <hr>
+    </nav>
+
+    <h2>Commissions (Currently Closed)</h2>
+
+    <h3>WIP page. Images and prices will be added by next summer.</h3>
+
+    <p>Commissions are paid for through <a href="https://coff.ee/teethinvitro">Buy Me A Coffee</a>.</p>
+
+    <div class="container">
+	    <h3>Character Art/Portraiture</h3>
+	    <p>Art of humanoids in a semirealistic or cartoon style (specify)</p>
+	    <p>Formula: base + [(no. of subjects - 1) * 0.5 * base] + bg</p>
+
+	    <h4>Traditional</h4>
+
+	    <table>
+		<tr>
+			<td></td>
+			<th>Sketch</th>
+			<th>Lineart</th>
+			<th>Rendered</th>
+		</tr>
+		<tr>
+			<th>Bust/Icon</th>
+		</tr>
+		<tr>
+			<th>Halfbody</th>
+		</tr>
+                <tr>
+                        <th>Fullbody</th>
+                </tr>
+	    </table>
+
+	    <h4>Digital</h4>
+
+            <table>
+                <tr>
+                        <td></td>
+                        <th>Sketch</th>
+                        <th>Lineart</th>
+                        <th>Rendered</th>
+                </tr>
+                <tr>
+                        <th>Bust/Icon</th>
+                </tr>
+                <tr>
+                        <th>Halfbody</th>
+                </tr>
+                <tr>
+                        <th>Fullbody</th>
+                </tr>
+            </table>
+
+	    <ul>
+	    <li>An additional subject costs an additional %50 of the base price (i.e. price of one character as specified above).</li>
+	    <li>Simple backgrounds such as patterns or backdrops with low detail cost between $1 and $5 depending on the size of the drawing and the complexity.</li>
+	    # image examples
+	    <li>For even larger or more complex backgrounds see <a href="#landscape">Landscape</a>.</li>
+    	    </ul>
+    </div>
+    <br><br>
+    <div class="container">
+	    <h3>MS Paint</h3>
+            <p>Art made in Microsoft Paint</p>
+	    <p>Small ≤ 500px × 500px < Large</p>
+	
+	    <table>
+                <tr>
+                        <td></td>
+                        <th>Small drawing</th>
+                        <th>Large drawing</th>
+                        <th>Small painting</th>
+			<th>Large painting</th>
+                </tr>
+                <tr>
+                        <th>Portrait</th>
+			<td>lineart<br>colored</td>
+			<td>lineart<br>colored</td>
+                </tr>
+                <tr>
+                        <th>Landscape</th>
+                </tr>
+                <tr>
+                        <th>Both</th>
+                </tr>
+            </table>
+	    
+	    <h4>TuxPaint Collage</h4>
+		x
+    </div>
+    <br><br>
+    <div class="container">
+            <h3 id="landscape">Landscape and genre art</h3>
+
+	    <table>
+		<tr>
+			<td></td>
+			<th>Traditional</th>
+			<th>Digital</th>
+		</tr>
+		<tr>
+			<th>Lineart</th>
+		</tr>
+		<tr>
+			<th>Rendered</th>
+		</tr>
+	    </table>	
+
+	    <p>If the living subject of the painting is not detailed (see the examples below), you will only pay the cost of the landscape and not the character.</p>
+		# image
+	<br><br>
+	    <h3>Free work (limited)</h3>
+	    <p>The idea behind this category is to give me full creative freedom but a general direction to work with.</p>
+	    <p>You may specify a theme, such as shapes, elements, motifs, colors, mood, meaning (optional; you can choose what the painting represents and I'll have the freedom to decide what that looks like), etc.</p>
+	    <p>You are free to choose a broadly defined style such as impressionism, expressionism, abstract art, surrealism, and so on.</p>
+	    <p>TL;DR: You can pay me to create something I'd put my heart into.</p> 
+    </div>
+    <br><br>
+    
+    <div class="container">
+    <h3>Commercial Work</h3>
+	<ul>
+<li>The cost of a commercial commission equals the price of a personal commission plus a fixed base for usage rights depending on artwork type.</li>
+            <li>Commercial commissions I may take include the following:</li>
+                <ul>
+                        <li>Creator artwork: banners, icons, etc. for streamers and similar</li>
+                        <li>Art for independent zines</li>
+                        <li>Poster art elements for small music venues and gigs</li>
+                        <li>Album artwork</li>
+                        <li>Book cover artwork or similar</li>
+                </ul>
+</ul>
+    </div>	
+	<br><br>
+	<hr>
+    <h3>Terms of Service</h3>
+    <h4>General terms</h4>
+    <ul>
+	<li>Commission prices may be higher than listed depending on the complexity of the work requested.</li>
+	<li>I retain the right to reject an order for any reason.</li>
+    </ul>
+    <h4>Payment</h4>
+    <ul>
+	    <li>Payments are done through BuyMeACoffee (linked above) and in USD.</li>
+	    <li>I will first send a sketch when I accept the commission, and you may pay 50% of the total price as confirmation. When the work is completed, I will send a preview, and you may pay the remaining 50% as confirmation.  You may request a refund up until the sketch stage.</li>
+	    <li>Please do not pay until I have accepted the commission and given you a slot. I will provide an ID for the commission for you to use during payment.</li>
+    </ul>
+    <h4>Process and Delivery</h4>
+    <ul>
+	    <li>The time it takes to complete a commission may vary, but I can generally complete an order within a week <i>after making a sketch</i>. The time at which I start will depend on how many commissions I have taken. I may cancel the order if special circumstances occur, such as travel or illness. I will refund the order in that case.</li>
+	    <li>When the commission is complete, I will email you the full-resolution image as a PNG or your preferred lossless format.</li>
+    </ul>
+    <h4>Revisions</h4>
+    <ul>
+	    <li>Minor changes (fixing errors, touching up the work, coloring changes, etc) to the commissioned work are free. Major changes (such as recreating a rendered background) that take more than an hour to do will cost up to %50 additional money depending on the workload. If the change is a result of a misunderstanding on my end (i.e. misreading or misinterpreting the written directions), there will be no extra costs.</li>
+    </ul>
+    <h4>Copyright and Usage</h4>
+    <ul>
+	    <li>You may not use a personally commissioned work for commercial purposes, such as in a product, to resell, to redistribute (standalone or as a part of a product, such as a book or poster), or any other forms of profit without my permission.</li>
+	    <li>Personal usage is allowed, such as in icons, banners, ArtFight pages (with credit), posting online (with credit), printing for personal use (no mass printing), etc., i.e. usage that does not earn you money.</li>
+	    <li>For commercial commissions, full attribution is required, and the work may not be resold or redistributed as standalone.</li>
+	    <li>You may not claim the commissioned piece as your own work.</li>
+	    <li>You may not alter the commissioned piece and redistribute it without my permission.</li>
+	    <li>I will most likely share the commission (low res) here on my portfolio, so let me know if you do not want me to do so.</li>
+    </ul>
+</body>
+</html>

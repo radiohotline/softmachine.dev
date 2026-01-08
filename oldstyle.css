@@ -1,0 +1,108 @@
+.border {
+	border: 5px dotted #8F2037;
+	border-radius: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+body {
+  background-color: #dbcdbe;
+  text-align: center;
+  font-family: DejaVu, Verdana, serif;
+}
+
+iframe {
+  overflow: hidden;
+}
+
+#wrapper {
+    overflow: hidden;
+}
+
+main {
+		margin: 0 auto;
+		width: 50%;
+		height: 100%;
+}
+#divleft {
+    float: left;
+		width: 25%;
+}
+#divright {
+    float: right;
+		width: 25%;
+}
+
+.thoughts {
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: justify;
+  font-family: monospace;
+  font-size: 14pt;
+}
+
+.thoughts h1 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.thoughts p {
+  padding-left: 20px;
+}
+
+.thoughts a {
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 14pt;
+  text-decoration: none;
+  color: black;
+}
+
+.thought a:hover {
+  color: #308280;
+}
+
+.thought a:visited {
+  color: black;
+}
+      
+.content {
+  display: none;
+  overflow: hidden;
+}
+
+.thoughts div {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.thoughts ::selection {
+  /*background-color: #828282;*/
+  color: white;
+  color: #308280;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(http/fonts.gstatic.cs/opensavmemSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: DejaVu;
+  src: url('pofoDejaVuSerif.ttf');
+}
+
+@font-face {
+  font-family: DejaVu;
+  src: url('pofoDejaVuSerif-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: DejaVu;
+  src: url('pofoDejaVuSerif-Italic.ttf');
+  font-style: italic;
+}

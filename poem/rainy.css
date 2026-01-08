@@ -1,0 +1,52 @@
+body {
+	background-color: white;
+	color: black;
+  margin: 20px;
+  font-family: DejaVu;
+  user-select: none;
+}
+
+div {
+	font-size: 70px;
+	cursor: pointer;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav {
+  padding: 5px;
+  margin-bottom: 2%;
+  font-size: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0
+}
+
+.poem {
+  margin-top: 22%;
+  margin-left: 25px;
+  font-size: 60px;
+}
+
+@font-face {
+  font-family: DejaVu;
+  src: url('font/DejaVuSerif.ttf');
+}
+
+@font-face {
+  font-family: DejaVu;
+  src: url('font/DejaVuSerif-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: DejaVu;
+  src: url('font/DejaVuSerif-Italic.ttf');
+  font-style: italic;
+}

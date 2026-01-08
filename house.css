@@ -1,0 +1,86 @@
+h1, h2, h3, h4, h5, h6, p, li {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.j {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.j li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    padding-bottom: 5px;
+}
+
+.m {
+    text-decoration: line-through;
+    color: red;
+}
+
+.p {
+    text-decoration: line-through;
+    color: purple;
+}
+
+.b {
+    color: blue;
+}
+
+a {
+    color: blue;
+}
+
+a:active {
+    color: red;
+}
+
+.bsq {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    float: left;
+    shape-outside: square(50%);
+    display: block;
+    margin-bottom: 5px;
+    border: 2px solid blue;
+}
+
+.blsq {
+    width: 200px;
+    height: 200px;
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    -o-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+    border: 2px solid blue;
+    float: left;
+    overflow: scroll;
+    text-align: justify;
+    margin-right: 5px;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.col {
+    display: flex;
+    word-wrap: break-word;
+}
+
+.udown {
+    transform:rotateX(180deg);
+    -webkit-transform:rotateX(180deg);
+    -moz-transform:rotateX(180deg);
+    -o-transform:rotateX(180deg);
+    -ms-transform:rotateX(180deg);
+}
+
+.minpass span {
+    color: red;
+    text-decoration: line-through;
+}
+
+body {
+    margin: 20px;
+}

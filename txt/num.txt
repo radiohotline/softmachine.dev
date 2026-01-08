@@ -1,0 +1,67 @@
+    It's true. A number that doesn't end with a zero or a five won't kill you.
+    I've recently come to terms with the fact that nobody will kill me
+    (figuratively) for using precise values in my code if they don't change by
+    increments of five.
+    
+    Numbers are numbers. That's all they are.
+    
+    
+    Responses (paraphrased).
+    
+    Jan 28 -
+    thricegreat:
+    [...] Logically, yes. But I think
+    giving some numbers divinity [...] is good though.
+    
+    
+    teethinvitro:
+    I am perfectionistic with designs (specifically in measurements, almost to
+    a weird level) ... [so] I strive for even-ness in almost everything.
+    Imagine a drawing, geometric painting, or a web page. Divisions of odd
+    numbers can have a beauty as well, even though they could be visibly off.
+    One could even those out to fix the "off-looking" aspects.
+    
+    Technically, a lot of numbers have special importance, especially in
+    geometry, and I wouldn't disagree that I find myself a slave to such
+    perfection, ... but it wouldn't hurt to break notions like that.
+    
+    For example, we can misjudge what is and isn't in a straight line,
+    especially since most of us don't change our angle of vision but instead of
+    the angle of the thing we're looking at ... One may intuitively decide on
+    what looks best if ruler measurements don't "feel" right (but they are).
+    
+    Heck, even this file is a victim to me unnecessarily and manually wrapping
+    words around a certain line length, and I judge that length by eye.
+    
+    
+    thricegreat:
+    ... So is it similar to why I changed the left-right tile size ratio
+    (in a tiling WM) from the divine golden ratio to the simplicity of 1:1?
+    In this case looking good instead of simplicity.
+    
+    
+    teethinvitro:
+    Pretty much.
+    
+    ----------
+    
+    Update on January 7th, 2025:
+    
+    There are "no" imperfect numbers in the sense that any number can be
+    multiplied by any other number, meaning all whole numbers have factors.
+    Prime numbers' prime factors are 1 and themselves. Any number can be
+    divided by 2 to give its half. Theoretically, any number can be halved,
+    so when it comes to something like page design, odd numbers are half of
+    something too, so they are "allowed." They are clean. You can divide an apple
+    of any size into half and it will split into a clean cut. However, if any
+    imperfect number exists, it's all the repeating numbers. Those feel unclean to
+    use. Dividing with them is impractical. Getting them as a result is impractical.
+    Despite that, things perfect thirds do exist, if you change the decimal to a fraction.
+    A graphical representation of a third is beautiful and perfect, but it's decimal
+    is not, because when you multiply 0.3333333333... by 3, which should be 1, you get
+    0.9999999999.... Not good. The number stretches infinitely towards 1, yet it is
+    never 1, but multiplying 1/3 by 3 yields 1. How come, then, a value like pi
+    does not have a perfect fraction that represents it that we know of? It should
+    theoretically exist. If you divide decimals by each other, they can be multiplied
+    by certain numbers until their fraction is whole-to-whole. The simplest number
+    to use is 10.

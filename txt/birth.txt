@@ -1,0 +1,25 @@
+    I will use this page to express whatever I want to, especially thoughts I have a lot and want to discuss,
+    given that nobody in my life is down to ever having a discussion. I want to keep it minimal as the words
+    are more important than the look, but with a bit of CSS, I wanted it to look comfortable to read. This
+    page was ironically inspired by the No-CSS club. I originally wanted to write pure pages for my thoughts,
+    with zero styling. I already had the habit of storing thoughts in plaintext files, and when I saw its
+    potentional in websites, I wanted to do the same. However, when I created this file and was greeted by
+    Neocities' placeholder code, I realized that I liked my default style (mute background plus page margins).
+    I avoided JavaScript as well, as I deem it to be excessive.
+    
+    As for my audience, I know who they are. It's people who think similarly to me, or otherwise anyone who
+    thinks too deeply about everything. I consider it a curse of some sorts but we'll see where it takes me.
+    
+    The internet is wide, so not everyone who comes across this will understand me, and if they do, they could
+    disagree. Thing is, I'd like that. I appreciate disagreements as they get me out of my head. I love getting
+    insight into how others think if it differs from my own thinking. I'm sick of living inside of my head, so
+    this is a great outlet. Ideas exist to be shared in a way, whether directly or through application and
+    implementation, or however you want to put it. Like I've said before, my online existence isn't worth more
+    or less than anyone else's, and my opinions aren't anything special, but I think and I need to put use into
+    these thoughts. Thinking alone won't change a thing in my life, but it sure makes the days more eventful
+    than they really are. My life wouldn't have looked the same if it weren't for my understanding of it being
+    the way it is. I've seen people whose lenses I want to share, people who, when you look through their eyes,
+    refresh my vision. For some of them, I'd love to see life the way they do, but only for a little while, as
+    changing something so big about myelf won't make me the *me* I know anymore.
+    
+    Enjoy.
