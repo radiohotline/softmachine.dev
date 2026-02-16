@@ -26,49 +26,44 @@
         }
 
         #one a:nth-child(1)::after {
-            width: 0px;
-            height: 0px;
-            background: rgba(0,0,0,0);
+            background: none;
         }
 
         #two a:nth-child(1)::after {
-            bottom: 40px;
-            left: 40px;
-            width: 300px;
-            height: 100px;
+            bottom: 10%;
+            left: 10%;
+            height: 30%;
         }
 
         #two a:nth-child(2)::after {
-            bottom: 10px;
-            left: 30px;
-            width: 200px;
-            height: 50px;
+            bottom: 2%;
+            left: 8%;
+	    height: 10%;
         }
 
         #two a:nth-child(3)::after {
             bottom: 0px;
             left: 0px;
-            width: 350px;
-            height: 150px;
+	    width: 105%;
+            height: 45%;
         }
 
         #three a:nth-child(1)::after {
-            bottom: 10px;
-            left: 0px;
-            width: 200px;
-            height: 70px;
+            bottom: 5%;
+            left: 0%;
+            height: 40%;
         }
 
-        #three a:nth-child(3)::after {
-            bottom: 10px;
-            left: 10px;
-            width: 250px;
-            height: 80px;
+        #three a:nth-child(2)::after {
+            bottom: 5%;
+            left: 5%;
+            height: 55%;
+	    width: 102%;
         }
         
         .eye {
-            width: 40px;
-            height: 40px;
+            width: 2.4vw;
+            height: 2.4vw;
             background: rgb(209, 209, 209);
             border-radius: 50%;
             position: relative;
@@ -79,8 +74,8 @@
         }
 
         .white {
-            width: 40px;
-            height: 20px;
+            width: 100%;
+            height: 60%;
             box-shadow: 0px 0px 10px 3px white;
             background: white;
             border-radius: 50%;
@@ -92,8 +87,8 @@
         }
 
         .pupil {
-            width: 10px;
-            height: 10px;
+            width: 0.63vw;
+            height: 0.63vw;
             background: rgb(17, 17, 17);
             border-radius: 50%;
             position: absolute;
@@ -112,16 +107,15 @@
         }
 
         .logo img {
-            width: 550px;
+            width: 28vw;
         }
 
         .logo img:hover {
-            width: 650px;
+            width: 33vw;
         }
 
         p {
             color: white;
-            font-size: large;
         }
     </style>
 </head>
@@ -131,39 +125,37 @@
     <div>
         <div id="one" class="flex">
             <a href="brain.html">
-            <img src="img/index/brain.png" style="max-width: 200px;"></a>
+            <img src="img/index/brain.png" style="max-width: 10.5vw;"></a>
         </div>
 
         <div id="two" class="flex">
             <a href="art.html">
-		    <img src="img/index/art.png" style="max-width: 350px;"></a>
+		    <img src="img/index/art.png" style="max-width: 18.5vw;"></a>
 
-            <a href="moloch.html">
-                <div class="eye" style="top: 163px; left: 70px;">
+            <a href="moloch.html" class="weener">
+                <!--<div class="eye" style="top: 5%; left: 10%;">
                     <div class="white"></div>
                     <div class="pupil"></div>
                 </div>
 
-                <div class="eye" style="top: 147px; left: 40px; width: 30px;">
+                <div class="eye" style="top: 19vh; left: 1.25vw; width: 2vw">
                     <div class="white"></div>
                     <div class="pupil"></div>
-                </div>
+		</div>-->
 
-                <img src="img/index/weener.png" style="max-width: 250px;">
+                <img src="img/index/weener.png" style="max-width: 13.5vw;">
             </a>
 
             <a href="tech.html">
-                <img src="img/index/computer.png" style="max-width:350px;"></a>
+                <img src="img/index/computer.png" style="max-width: 18.5vw;"></a>
         </div>
 
-        <div id="three" class="flex">
+        <div id="three" class="flex" style="gap: 10vw;">
             <a href="creatures.html">
-            <img src="img/index/doll.png" style="max-width: 200px;"></a>
-            
-            <div style="width: 200px;"></div>
+            <img src="img/index/doll.png" style="max-width: 10.5vw;"></a>
 
             <a href="music.html">
-            <img src="img/index/music.png" style="max-width: 250px;"></a>
+            <img src="img/index/music.png" style="max-width: 13.5vw;"></a>
         </div>
     </div>
 
@@ -181,12 +173,12 @@
         <p><a href="about.html">about</a> * <a href="sitemap.html">sitemap</a> * <a href="https://teeth.atabook.org/">guestbook</a></p>
     </div>
 
-    <div class="shadow" style="text-align: center; color: white; width: 250px; padding: 10px; position: fixed; bottom: 0; right: 0;">
+    <div class="shadow" style="text-align: center; color: white; width: 20%; padding: 10px; position: fixed; bottom: 0; right: 0;">
 	    <h2 style="text-align: center; margin: 0px;">Updates</h2>
 
-	    <ul style="text-align: left; padding: 0px 20px;">
-		    <li>16/02/26 - New site design</li>
-            <li>04/02/26 - Added Bluesky link</li>
+	    <ul style="text-align: left; padding: 0px 20px; font-size: 1em;">
+		<li>16/02/26 - New site design</li>
+            	<li>04/02/26 - Added Bluesky link</li>
 	    	<li>12/01/26 - Added tor and i2p mirrors</li>
 	    	<li>10/01/26 - Added The Black Tower to /books</li>
 	    </ul>
