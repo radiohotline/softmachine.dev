@@ -1,118 +1,119 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The Weight of Comfort">
-    <meta name="keywords" content="Personal, Music, Poetry, Art, Radiohotline, Teethinvitro">
-    <meta name="author" content="Radiohotline">
+<head>
     <title>year month day</title>
-    <link href="house.css" rel="stylesheet" type="text/css" media="all">
+    <link href="common.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="The Weight of Comfort | Personal website containing art, music, programming, poetry, and the world of Moloch">
+    <meta name="keywords" content="Personal, Music, Poetry, Art, Radiohotline, Teethinvitro, Moloch">
+    <meta name="author" content="Radiohotline">
     <style>
-      embed {
-        width: 65vw;
-        height: 65vh;
-      }
+        .shadow {
+            width: 80%;
+        }
 
-      @media (max-width: 400px) {
-	img {
-		width: 350px;
-		padding-bottom: 10px;
-	}
+        .shadow img {
+            width: 256px;
+            float: right;
+        }
 
-	embed {
-		width: 90vw;
-		height: 75vh;
-	}
-      }
+        embed {
+            width: 55vw;
+            height: 50vh;
+            background-color: rgba(199, 189, 170, 0.8);
+            box-shadow: 0 0 10px 10px rgba(199, 189, 170, 0.8);
+            border-radius: 20px;
+            margin: 10px 0px 10px 0px;
+        }
+
+        @media (max-width: 400px) {
+            .shadow img {
+                width: 350px;
+                padding-bottom: 10px;
+            }
+
+            embed {
+                width: 90vw;
+                height: 75vh;
+            }
+        }
     </style>
-  </head>
-  <body class="thoughts">
-        <nav>
-        <h1>Soft Machine</h1>
-        <span>
-            <a href="house.html">home</a>&emsp;&emsp;
-            <a href="about.html">about</a>&emsp;&emsp;
-            <a href="art.html">art</a>&emsp;&emsp;
-            <a href="music.html">music</a>&emsp;&emsp;
-            <a href="thoughts.html">thoughts</a>&emsp;&emsp;
-            <a href="muse.html">muse</a>&emsp;&emsp;
-            <a href="poetry.html">poetry</a>&emsp;&emsp;
-            <a href="books.html">library</a>&emsp;&emsp;
-	    <a href="projects.html">projects</a>&emsp;&emsp;
-            <a href="links.html">links</a>&emsp;&emsp;
-        </span>
-        <hr>
-      </nav>
-    <h2>Thoughts</h2>
-    
-    <a title="Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ea_(Babilonian)_-_EnKi_(Sumerian).jpg">
-    <img style="float:right;" width="400" alt="Ea (Babilonian) - EnKi (Sumerian)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Ea_%28Babilonian%29_-_EnKi_%28Sumerian%29.jpg/512px-Ea_%28Babilonian%29_-_EnKi_%28Sumerian%29.jpg">
-    </a>
-    
-    <div>
-      <article>
-	<details>
-	  <summary>25/11/07 - Lemon Soda Lemonade</summary>
-	  <embed src="txt/soda.txt">
-	</details>
-      </article>
-      <article>
-	<details>
-	  <summary>25/11/07 - Some Things We Do</summary>
-	  <embed src="txt/core.txt">
-      	</details>
-      </article>
-      <article>
-        <details>
-          <summary>25/01/09 - Outcomes of a Shower</summary>
-          <embed src="txt/shower.txt">
-        </details>
-      </article>
-      
-      <article>
-        <details>
-          <summary>23/04/22 - Wherein You Exist</summary>
-          <embed src="txt/where.txt">
-        </details>
-      </article>
-      
-      <article>
-        <details>
-          <summary>23/02/22 - "Aliveness" as Imperfection and Uncertainty in Motion</summary>
-          <embed src="txt/alive.txt">
-        </details>
-      </article>
-      
-      <article>
-        <details>
-          <summary>23/01/26 - No Such Thing as an Imperfect Number (Updated 2025)</summary>
-          <embed src="txt/num.txt">
-        </details>
-      </article>
-      
-      <article>
-        <details>
-          <summary>23/01/26 - Expression and the Primal Fear of Isolation</summary>
-          <embed src="txt/isolation.txt">
-        </details>
-      </article>
-      
-      <article>
-        <details>
-          <summary>23/01/26 - What is this?</summary>
-          <embed src="txt/birth.txt">
-        </details>
-      </article>
-      
-      <!--
-      <article>
-        <details>
-          <summary></summary>
-          <embed src="txt/">
-        </details>
-      </article>
-      -->
+</head>
+<body>
+    <h1 class="logo"><a href="index.html"><img src="img/logo.png" alt="Soft Machine"></a></h1>
+
+    <div class="shadow">
+        <img src="../img/enki.jpg">
+
+        <h1>Thoughts</h1>
+        
+        <div>
+            <article>
+                <details>
+                <summary>25/11/07 - Lemon Soda Lemonade</summary>
+                <embed src="../txt/soda.txt">
+                </details>
+            </article>
+
+            <article>
+                <details>
+                <summary>25/11/07 - Some Things We Do</summary>
+                <embed src="../txt/core.txt">
+                </details>
+            </article>
+
+            <article>
+                <details>
+                <summary>25/01/09 - Outcomes of a Shower</summary>
+                <embed src="../txt/shower.txt">
+                </details>
+            </article>
+            
+            <article>
+                <details>
+                <summary>23/04/22 - Wherein You Exist</summary>
+                <embed src="../txt/where.txt">
+                </details>
+            </article>
+            
+            <article>
+                <details>
+                <summary>23/02/22 - "Aliveness" as Imperfection and Uncertainty in Motion</summary>
+                <embed src="../txt/alive.txt">
+                </details>
+            </article>
+            
+            <article>
+                <details>
+                <summary>23/01/26 - No Such Thing as an Imperfect Number (Updated 2025)</summary>
+                <embed src="../txt/num.txt">
+                </details>
+            </article>
+            
+            <article>
+                <details>
+                <summary>23/01/26 - Expression and the Primal Fear of Isolation</summary>
+                <embed src="../txt/isolation.txt">
+                </details>
+            </article>
+            
+            <article>
+                <details>
+                <summary>23/01/26 - What is this?</summary>
+                <embed src="../txt/birth.txt">
+                </details>
+            </article>
+            
+            <!--
+            <article>
+                <details>
+                <summary></summary>
+                <embed src="../txt/">
+                </details>
+            </article>
+            -->
+        </div>
     </div>
-  </body>
+</body>
 </html>

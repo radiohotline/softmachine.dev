@@ -1,44 +1,222 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="description" content="The Weight of Comfort">
-	<meta name="keywords" content="Personal, Music, Poetry, Art, Radiohotline, Teethinvitro">
-	<meta name="author" content="Radiohotline">
-	<style>
-		html {
-			min-height: 100%; 
-			box-shadow: inset 0 0 300px #000, inset 0 0 120px #000, inset 0 0 80px #000;
-		}
-		body {
-			background-image: url(img/bg/insert.png);
-			background-repeat: no-repeat;
-			background-attachment: fixed;  
-			background-size: cover;
-			background-position: center;
-			text-align: center;
-			font-size: 50pt;
-		}
-		p {
-			text-shadow: 0 0 20px black, 0 0 0.2em black;
-			color: #fff
-		}
-		a {
-			color: #ac233f;
-			font-size: 35pt;
-			text-shadow: 2px 0 #dbcdbe, -2px 0 #dbcdbe, 0 2px #dbcdbe, 0 -2px #dbcdbe,
-             1px 1px #dbcdbe, -1px -1px #dbcdbe, 1px -1px #dbcdbe, -1px 1px #dbcdbe;
-		}
-	</style>
-	<link href="crt index.css" rel="stylesheet">
-	<title>Soft Machine</title>
+    <title>Soft Machine</title>
+    <link href="https://softmachine.dev/rss.xml/" rel="alternate" type="application/rss+xml" title="Soft Machine's RSS Feed" />
+    <link href="common.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="The Weight of Comfort | Personal website containing art, music, programming, poetry, and the world of Moloch">
+    <meta name="keywords" content="Personal, Music, Poetry, Art, Radiohotline, Teethinvitro, Moloch">
+    <meta name="author" content="Radiohotline">
+
+    <style>
+        body {
+            background-image: url('img/index/index.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+            background-position: center;
+        }
+
+        .shadow {
+            z-index: 2;
+            text-align: center;
+            padding: 0;
+        }
+
+        #one a:nth-child(1)::after {
+            width: 0px;
+            height: 0px;
+            background: rgba(0,0,0,0);
+        }
+
+        #two a:nth-child(1)::after {
+            bottom: 40px;
+            left: 40px;
+            width: 300px;
+            height: 100px;
+        }
+
+        #two a:nth-child(2)::after {
+            bottom: 10px;
+            left: 30px;
+            width: 200px;
+            height: 50px;
+        }
+
+        #two a:nth-child(3)::after {
+            bottom: 0px;
+            left: 0px;
+            width: 350px;
+            height: 150px;
+        }
+
+        #three a:nth-child(1)::after {
+            bottom: 10px;
+            left: 0px;
+            width: 200px;
+            height: 70px;
+        }
+
+        #three a:nth-child(3)::after {
+            bottom: 10px;
+            left: 10px;
+            width: 250px;
+            height: 80px;
+        }
+        
+        .eye {
+            width: 40px;
+            height: 40px;
+            background: rgb(209, 209, 209);
+            border-radius: 50%;
+            position: relative;
+            display: inline-block;
+            margin: 20px;
+            overflow: hidden;
+            z-index: 2;
+        }
+
+        .white {
+            width: 40px;
+            height: 20px;
+            box-shadow: 0px 0px 10px 3px white;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+        }
+
+        .pupil {
+            width: 10px;
+            height: 10px;
+            background: rgb(17, 17, 17);
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+        }
+
+        .logo {
+            text-align: center;
+            top: 0;
+            left: 0;
+            position: fixed;
+            margin: 40px;
+        }
+
+        .logo img {
+            width: 550px;
+        }
+
+        .logo img:hover {
+            width: 650px;
+        }
+
+        p {
+            color: white;
+            font-size: large;
+        }
+    </style>
 </head>
 <body>
-	<br>
-	<p style="z-index: 1;">soft machine</p>
-	<!--
-	<p style="color:grey; position: absolute; left: 30%; top: 19%; z-index: -1;">lorem ipsum dolor sit amet</p>
-	-->
-	<a href="house.html">>> proceed</a>
+    <h1 class="logo"><img src="img/logo.png" alt="Soft Machine"></h1>
+
+    <div>
+        <div id="one" class="flex">
+            <a href="brain.html">
+            <img src="img/index/brain.png" style="max-width: 200px;"></a>
+        </div>
+
+        <div id="two" class="flex">
+            <a href="art.html">
+		    <img src="img/index/art.png" style="max-width: 350px;"></a>
+
+            <a href="moloch.html">
+                <div class="eye" style="top: 163px; left: 70px;">
+                    <div class="white"></div>
+                    <div class="pupil"></div>
+                </div>
+
+                <div class="eye" style="top: 147px; left: 40px; width: 30px;">
+                    <div class="white"></div>
+                    <div class="pupil"></div>
+                </div>
+
+                <img src="img/index/weener.png" style="max-width: 250px;">
+            </a>
+
+            <a href="tech.html">
+                <img src="img/index/computer.png" style="max-width:350px;"></a>
+        </div>
+
+        <div id="three" class="flex">
+            <a href="creatures.html">
+            <img src="img/index/doll.png" style="max-width: 200px;"></a>
+            
+            <div style="width: 200px;"></div>
+
+            <a href="music.html">
+            <img src="img/index/music.png" style="max-width: 250px;"></a>
+        </div>
+    </div>
+
+    <div class="shadow" style="text-align: center; width: 150px; position: fixed; top: 0; right: 0; margin: 20px;
+    -webkit-box-shadow: 0 0 20px 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 20px 10px rgba(0,0,0,0.6);
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.6);">
+        <p><a href="https://d75i6wrgammbirodhv7fpulpko3jea3tb7qjjivf3kc6ohaambmptsad.onion/">tor</a>&emsp;*&emsp;<a href="http://softmachine.i2p/">i2p</a></p>
+    </div>
+
+    <div class="shadow" style="text-align: center; width: 300px; position: fixed; bottom: 0; left: 0; margin: 20px;
+    -webkit-box-shadow: 0 0 20px 15px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 20px 15px rgba(0,0,0,0.6);
+    box-shadow: 0 0 20px 15px rgba(0,0,0,0.6);">
+        <p><a href="about.html">about</a> * <a href="sitemap.html">sitemap</a> * <a href="https://teeth.atabook.org/">guestbook</a></p>
+    </div>
+
+    <div class="shadow" style="text-align: center; color: white; width: 250px; padding: 10px; position: fixed; bottom: 0; right: 0;">
+	    <h2 style="text-align: center; margin: 0px;">Updates</h2>
+
+	    <ul style="text-align: left; padding: 0px 20px;">
+		    <li>16/02/26 - New site design</li>
+            <li>04/02/26 - Added Bluesky link</li>
+	    	<li>12/01/26 - Added tor and i2p mirrors</li>
+	    	<li>10/01/26 - Added The Black Tower to /books</li>
+	    </ul>
+
+		<a href="rss.xml">RSS Feed</a>
+    </div>
+
+    <script>
+        document.addEventListener("mousemove", (e) => {
+            document.querySelectorAll(".eye").forEach(eye => {
+                const pupil = eye.querySelector(".pupil");
+                const rect = eye.getBoundingClientRect();
+
+                const eyeX = rect.left + rect.width / 2;
+                const eyeY = rect.top + rect.height / 2;
+
+                const dx = e.clientX - eyeX;
+                const dy = e.clientY - eyeY;
+
+                const angle = Math.atan2(dy, dx);
+
+                const maxMove = rect.width / 4;
+
+                const x = Math.cos(angle) * maxMove;
+                const y = Math.sin(angle) * maxMove;
+
+                pupil.style.transform = `translate(-50%, -50%) translate(${x}px, ${y}px)`;
+            });
+        });
+    </script>
+
 </body>
 </html>

@@ -5,8 +5,14 @@
 	<description>The Weight of Comfort</description>
 	<link>https://softmachine.dev</link>
 	<lastBuildDate>	
-		Tue, 10 Jul 2018 09:58 +0100
+		2026-02-16 20:36:22
 	</lastBuildDate>
 	<ttl>20000</ttl>
+
+	<item>
+		<title>Site overhaul</title>
+	        <link>https://softmachine.dev</link>
+	        <description>The site has been redesigned, with added graphics, but some pages are WIP.</description>
+	</item>
 </channel>
 </rss>
