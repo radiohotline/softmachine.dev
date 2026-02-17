@@ -1,0 +1,112 @@
+body {
+    background-color: #dbcdbe;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 25px;
+}
+
+.art-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: none;
+    align-items: center;
+    align-self: flex-start;
+    gap: 20px;
+}
+
+@media (min-width: 900px) {
+    .art {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .art-nav {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .art-container {
+        flex-direction: row;
+    }
+
+    .art-container img {
+        height: 300px;
+        width: auto;
+        
+    }
+
+    .main {
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 20px;
+    }
+     
+    p, a, li {
+        font-size: 14pt;
+    }
+
+    p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    ul, ol {
+        text-align: left;
+    }
+
+    nav {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .art-container {
+        flex-direction: column;
+    }
+
+    .art-container img {
+        height: auto;
+        width: 80vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+h1 {
+    font-family: Garamond, serif;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: serif;
+    font-weight: 100;
+}
+
+h6 {
+   font-weight: bold;
+}
+
+p, li {
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: Garamond, serif, DejaVu Sans Mono, DejaVu;
+}
+
+a {
+    color: #8F2037;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:active {
+    color: red;
+}
