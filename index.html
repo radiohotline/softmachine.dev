@@ -12,7 +12,7 @@
 
     <style>
         body {
-            background-image: url('img/index/index.png');
+            background-image: url('img/index/index.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
@@ -23,6 +23,11 @@
             z-index: 2;
             text-align: center;
             padding: 0;
+            margin: 0;
+            position: fixed;
+            -webkit-box-shadow: 0 0 10px 10px rgba(0,0,0,0.6);
+            -moz-box-shadow: 0 0 10px 10px rgba(0,0,0,0.6);
+            box-shadow: 0 0 10px 10px rgba(0,0,0,0.6);
         }
 
         #one a:nth-child(1)::after {
@@ -114,7 +119,7 @@
             top: 0;
             left: 0;
             position: fixed;
-            margin: 20px 40px;
+            margin: 20px;
         }
 
         .logo img {
@@ -172,26 +177,20 @@
         </div>
     </div>
 
-    <div class="shadow" style="text-align: center; width: 150px; position: fixed; top: 0; right: 0; margin: 20px;
-    -webkit-box-shadow: 0 0 20px 10px rgba(0,0,0,0.6);
-    -moz-box-shadow: 0 0 20px 10px rgba(0,0,0,0.6);
-    box-shadow: 0 0 20px 10px rgba(0,0,0,0.6);">
+    <div class="shadow" style="width: 10%; top: 0; right: 0;">
         <p><a href="https://d75i6wrgammbirodhv7fpulpko3jea3tb7qjjivf3kc6ohaambmptsad.onion/">tor</a>&emsp;*&emsp;<a href="http://softmachine.i2p/">i2p</a></p>
     </div>
 
-    <div class="shadow" style="text-align: center; width: 300px; position: fixed; bottom: 0; left: 0; margin: 20px;
-    -webkit-box-shadow: 0 0 20px 15px rgba(0,0,0,0.6);
-    -moz-box-shadow: 0 0 20px 15px rgba(0,0,0,0.6);
-    box-shadow: 0 0 20px 15px rgba(0,0,0,0.6);">
+    <div class="shadow" style="width: 20%; bottom: 0; left: 0;">
         <p><a href="about.html">about</a> * <a href="sitemap.html">sitemap</a> * <a href="https://teeth.atabook.org/">guestbook</a></p>
     </div>
 
-    <div class="shadow" style="text-align: center; color: white; width: 20%; padding: 10px; position: fixed; bottom: 0; right: 0;">
-	    <h2 style="text-align: center; margin: 0px;">Updates</h2>
+    <div class="shadow" style="width: 20%; bottom: 0; right: 0;">
+	    <h2 style="margin-top: 10px;">Updates</h2>
 
-	    <ul style="text-align: left; padding: 0px 20px; font-size: 1em;">
-		<li>16/02/26 - New site design</li>
-            	<li>04/02/26 - Added Bluesky link</li>
+	    <ul style="text-align: left; margin: 0px 10px 10px 0px; font-size: 1em;">
+		    <li>16/02/26 - New site design</li>
+            <li>04/02/26 - Added Bluesky link</li>
 	    	<li>12/01/26 - Added tor and i2p mirrors</li>
 	    	<li>10/01/26 - Added The Black Tower to /books</li>
 	    </ul>
