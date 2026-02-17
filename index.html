@@ -4,7 +4,7 @@
     <title>Soft Machine</title>
     <link href="https://softmachine.dev/rss.xml/" rel="alternate" type="application/rss+xml" title="Soft Machine's RSS Feed" />
     <link href="common.css" rel="stylesheet" type="text/css">
-    <meta charset="UTF-8">
+    <meta charset="unicode">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta name="description" content="The Weight of Comfort | Personal website containing art, music, programming, poetry, and the world of Moloch">
     <meta name="keywords" content="Personal, Music, Poetry, Art, Radiohotline, Teethinvitro, Moloch">
@@ -13,9 +13,8 @@
     <style>
         body {
             background-image: url('img/index/index.jpg');
-            background-repeat: no-repeat;
             background-attachment: fixed;
-            background-size: cover;
+            background-size: 100%;
             background-position: center;
         }
 
@@ -30,8 +29,77 @@
             box-shadow: 0 0 10px 10px rgba(0,0,0,0.6);
         }
 
+        #mirrors {
+            width: 10%; top: 0; right: 0;
+        }
+
+        #links {
+            width: 20%; bottom: 0; left: 0;
+        }
+
+        #updates {
+            width: 20%; bottom: 0; right: 0;
+        }
+
+        @media (max-width: 900px) {
+            body {
+                background-size: cover;
+                background-attachment: scroll;
+            }
+
+            .shadow {
+                position: relative;
+                border-radius: 0px;
+            }
+
+            #mirrors, #links, #updates {
+                width: 100%;
+            }
+
+            .logo {
+                position: relative !important;
+                display: block !important;
+            }
+
+            .logo img {
+                width: 80vw !important;
+            }
+
+            .logo img:hover {
+                width: 85vw !important;
+            }
+
+            #one, #two, #three {
+                display: contents;
+            }
+
+            #one a img, #two a img, #three a img {
+                width: 45vw !important;
+            }
+
+            .all {
+                display: flex;
+                flex-flow: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+
+        /* one */
+
+        #one a:nth-child(1) img {
+            width: 10.5vw;
+        }
+
         #one a:nth-child(1)::after {
             background: none;
+        }
+
+        /* two */ 
+
+        #two a:nth-child(1) img {
+            width: 18.5vw;;
         }
 
         #two a:nth-child(1)::after {
@@ -40,10 +108,18 @@
             height: 30%;
         }
 
+        #two a:nth-child(2) img {
+            width: 13.5vw;
+        }
+
         #two a:nth-child(2)::after {
             bottom: 2%;
             left: 8%;
 	        height: 10%;
+        }
+
+        #two a:nth-child(3) img {
+            width: 18.5vw;
         }
 
         #two a:nth-child(3)::after {
@@ -53,10 +129,20 @@
             height: 45%;
         }
 
+        /* three */
+
+        #three a:nth-child(1) img {
+            width: 10.5vw;
+        }
+
         #three a:nth-child(1)::after {
             bottom: 5%;
             left: 0%;
             height: 40%;
+        }
+
+        #three a:nth-child(2) img {
+            width: 13.5vw;
         }
 
         #three a:nth-child(2)::after {
@@ -129,24 +215,20 @@
         .logo img:hover {
             width: 33vw;
         }
-
-        p {
-            color: white;
-        }
     </style>
 </head>
 <body>
     <h1 class="logo"><img src="img/logo.png" alt="Soft Machine"></h1>
 
-    <div>
+    <div class="all">
         <div id="one" class="flex">
             <a href="brain.html">
-            <img src="img/index/brain.png" style="width: 10.5vw;"></a>
+            <img src="img/index/brain.png"></a>
         </div>
 
         <div id="two" class="flex">
             <a href="art.html">
-		    <img src="img/index/art.png" style="width: 18.5vw;"></a>
+		    <img src="img/index/art.png"></a>
 
             <a href="moloch.html" class="weener">
                 <div class="eye" style="top: 19%; left: 37%; width: 15%; height: 8.5%;">
@@ -161,41 +243,41 @@
                     <div class="shine"></div>
 		        </div>
 
-                <img src="img/index/weener.png" style="width: 13.5vw;">
+                <img src="img/index/weener.png">
             </a>
 
             <a href="tech.html">
-                <img src="img/index/computer.png" style="width: 18.5vw;"></a>
+                <img src="img/index/computer.png"></a>
         </div>
 
         <div id="three" class="flex" style="gap: 10vw;">
             <a href="creatures.html">
-            <img src="img/index/doll.png" style="width: 10.5vw;"></a>
+            <img src="img/index/doll.png"></a>
 
             <a href="music.html">
-            <img src="img/index/music.png" style="width: 13.5vw;"></a>
+            <img src="img/index/music.png"></a>
         </div>
     </div>
 
-    <div class="shadow" style="width: 10%; top: 0; right: 0;">
+    <div class="shadow" id="mirrors">
         <p><a href="https://d75i6wrgammbirodhv7fpulpko3jea3tb7qjjivf3kc6ohaambmptsad.onion/">tor</a>&emsp;*&emsp;<a href="http://softmachine.i2p/">i2p</a></p>
     </div>
 
-    <div class="shadow" style="width: 20%; bottom: 0; left: 0;">
+    <div class="shadow" id="links">
         <p><a href="about.html">about</a> * <a href="sitemap.html">sitemap</a> * <a href="https://teeth.atabook.org/">guestbook</a></p>
     </div>
 
-    <div class="shadow" style="width: 20%; bottom: 0; right: 0;">
-	    <h2 style="margin-top: 10px;">Updates</h2>
+    <div class="shadow" id="updates">
+        <h2 style="margin-top: 10px;">Updates</h2>
 
-	    <ul style="text-align: left; margin: 0px 10px 10px 0px; font-size: 1em;">
-		    <li>16/02/26 - New site design</li>
+        <ul style="text-align: left; margin: 0px 10px 10px 0px; font-size: 1em;">
+            <li>17/02/26 - Responsiveness fixes</li>
+            <li>16/02/26 - New site design</li>
             <li>04/02/26 - Added Bluesky link</li>
-	    	<li>12/01/26 - Added tor and i2p mirrors</li>
-	    	<li>10/01/26 - Added The Black Tower to /books</li>
-	    </ul>
+            <li>12/01/26 - Added tor and i2p mirrors</li>
+        </ul>
 
-		<a href="rss.xml">RSS Feed</a>
+        <a href="rss.xml">RSS Feed</a>
     </div>
 
     <script>

@@ -19,13 +19,48 @@
             box-shadow: 0 0 20px 25px rgba(0,0,0,0.8);
             border-radius: 10px;
         }
+
+        @media (max-width: 900px) {
+            .intro {
+                display: flex;
+                justify-content: center;
+                gap: 50px;
+                flex-wrap: wrap;
+                margin-bottom: 20px;
+            }
+
+            .intro img {
+                width: 40%;
+            }
+            
+            #introp {
+                width: 100% !important;
+            }
+
+            .sticky {
+                position: relative;
+                z-index: 1;
+            }
+
+            .links {
+                position: relative;
+            }
+        }
         
         .intro {
-            display: flex;
+            display: inline-flex;
             justify-content: center;
             gap: 50px;
             flex-wrap: wrap;
             margin-bottom: 20px;
+        }
+
+        .intro img {
+            height: 40%;
+        }
+        
+        #introp {
+            width: 40%;
         }
 
         .container {
@@ -117,10 +152,9 @@
         <br>
         <a href="https://coff.ee/teethinvitro">Support</a>
     </div>
-    <img src="img/music/guitar.gif" class="sticky">
     <div id="main">
         <div class="intro">
-            <div style="width: 40%;">
+            <div id="introp">
                 <h1>Music</h1>
                 <p>
                     I have been composing music since 2018, making shitty beats in LMMS and composing theme songs on piano,
@@ -346,5 +380,7 @@
             </div>
         </div>
     </div>
+
+    <img src="img/music/guitar.gif" class="sticky">
 </body>
 </html>

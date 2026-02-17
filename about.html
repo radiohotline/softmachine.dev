@@ -9,7 +9,58 @@
     <link href="house.css" rel="stylesheet">
     <title>Soft Machine | About</title>
     <style>
+        @media (max-width: 900px) {
+            .col {
+                display: block;
+            }
 
+            #left, #right, #center {
+                width: 90% !important;
+                margin: auto;
+                padding: 0 !important;
+            }
+
+            #left, #right {
+                border-right: none !important;
+                border-left: none !important;
+                border-bottom: 1px solid black;
+            }
+
+            #left {
+                margin-bottom: 20px;
+            }
+        }
+
+        #left {
+            width: 20%;
+            text-align: justify;
+            padding: 0 20px 0 0;
+            border-right: 1px solid black;
+        }
+
+        #center {
+            padding-left: 10px;
+            width: 65%;
+        }
+
+        #right {
+            width: 15%;
+            text-align: justify;
+            padding-left: 10px;
+            border-left: 1px solid black;
+            font-size: small;
+        }
+
+        #square {
+            height: 400px;
+            width: 400px;
+            margin: auto;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            text-align: justify;
+            font-size: larger;
+            line-height: 1;
+        }
     </style>
 </head>
 <body>
@@ -28,7 +79,7 @@
     </script>  
 
     <div class="col">
-        <div style="width: 20%; text-align: justify; padding: 0 20px 0 0; border-right: 1px solid black;">
+        <div id="left">
             <h2 style="margin-top: 0px;">Webmaster</h2>
                 <p>radiohotline[at]disroot[dot]org - <a href="radio.asc">PGP key</a></p>
                 <p>The more I try to outline who I am, the more I lose grasp.<sup>1</sup></p>
@@ -71,13 +122,11 @@
                     <img src="img/stamps/gointhedark.gif" alt="">
                     <img src="img/stamps/kafka.png" alt="">
                     <img src="img/stamps/thog.png" alt="">
-                </div>
-
-                
+                </div>     
         </div>
 
-        <div style="padding-left: 10px; width: 65%;">
-            <div style="height: 400px; width: 400px; margin: auto; writing-mode: vertical-rl; text-orientation: mixed; text-align: justify; font-size: larger; line-height: 1;">
+        <div id="center">
+            <div id="square">
                 <p><span style="font-weight: bold;">History:</span> Soft Machine<sup>2</sup> started in 2021 under the name "Randal", and it was only populated in 2022 when it was renamed to "Teeth in Vitro", when it solely
                     held the Nirvana page. After a hiatus, it was relaunched in 2024 as a much more
                     compact personal website, the modest version you can find under /min<span class="bsq"></span>. In late 2025, a style based on the typography of House of Leaves was used,
@@ -134,7 +183,7 @@
 
         </div>
         
-        <div style="width: 15%; text-align: justify; padding-left: 10px; border-left: 1px solid black; font-size: small;" class="udown">
+        <div id="right" class="udown">
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis sem rutrum ligula blandit auctor ac at felis. Vestibulum ultricies mi ante, a lacinia eros cursus a. Quisque nisi turpis, sollicitudin ac erat vel, condimentum tempor libero. Vivamus in odio vitae arcu gravida aliquam. Nunc egestas ligula at blandit commodo. Pellentesque lorem neque, tristique sit amet ultricies ac, ultricies at sapien. Cras sed enim nec nunc convallis hendrerit porttitor semper lectus.
             </p>

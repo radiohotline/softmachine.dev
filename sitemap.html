@@ -32,12 +32,31 @@
         a {
             font-family: 'Nanum', Georgia, 'Times New Roman', Times, serif;
         }
+
+        #main {
+            width: 50%;
+        }
+
+        @media (max-width: 900px) {
+            #main {
+                width: 90vw;
+            }
+
+            .column {
+                width: 100%;
+            }
+
+            .shadow {
+                display: block;
+                padding: 0 20px 0 20px;
+            }
+        }
     </style>
 </head>
 <body>
     <h1 class="logo"><a href="index.html"><img src="img/logo.png" alt="Soft Machine"></a></h1>
 
-    <div class="shadow" style="width: 50%">
+    <div class="shadow" id="main">
         <div class="column">
             <h1>Sitemap</h1>
             
