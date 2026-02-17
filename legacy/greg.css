@@ -1,0 +1,65 @@
+body {
+	/*background-color: lightgreen;*/
+	color:rgb(34, 56, 52);
+	font-family: serif;
+}
+
+.normal {
+	background-image: url('img/bg/dithered-poles.png');
+}
+
+.content {
+	background-color: rgb(90, 125, 131);
+	margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+	padding: 25px;
+}
+
+.box {
+	background-color: rgb(121, 155, 161);
+	padding: 15px;
+	padding-top: 2px;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+a {
+	color: rgb(9, 57, 97);
+}
+
+figure {
+	display: inline-block;
+	margin: 15px;
+}
+
+::selection {
+	background-color: #308280;
+	color: white;
+}
+
+.gregevil {
+	background-image: url('img/greg/Flag_of_Estonia.png');
+	background-repeat: repeat;
+	background-size: 300px 200px;
+}
+
+.gregevil a {
+	color: white;
+}
+
+.evilcontent {
+	background-color: white;
+	margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+	padding: 25px;
+}
+
+.evilbox {
+	background-color: white;
+	padding: 15px;
+	padding-top: 2px;
+}

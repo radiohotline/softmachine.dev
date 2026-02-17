@@ -1,0 +1,56 @@
+    How many outcomes are there to a shower?
+    
+    We have to set our scope and threshold. You're probably
+    thinking that there is one outcome: getting clean.
+    However, there are infinite outcomes to any event if
+    you're not careful.
+    
+    First, I will limit the observation to the instant the
+    shower is done. What if I don't? If you count the process,
+    then every footstep you take in the shower will impact
+    how the shower goes on a microscopic level that, with 
+    just the right chance, might snowball into a visible effect,
+    like slipping and injuring yourself. I will not count footsteps.
+    I will not count the way your muscles contract and relax unless
+    they are a factor in the success of the shower. Therefore,
+    I will assume the shower is successful; that is, complete.
+    
+    Second, I will limit the impact of the shower to external
+    physical cleanliness. I will not count psychological effects,
+    nor will I count the effect (if any) it has on the movement
+    of red blood cells inside of you, whether they hit the walls
+    of your vessels in certain ways as they squeeze through, nor will
+    I pretend that such movement affects the process of showering.
+    If I count it, there will be infinite outcomes, most of which have
+    no real discernible value, because the useful data is cleanliness.
+    I will assume that the way soap bubbles on your skin has no impact,
+    because there are infinite manners in which the bubbles will appear,
+    if they appear at all in the foam. I will count, however, whether
+    the soap covers every picometer of your skin. If not, then how much
+    of the skin it touches. This is important in assessing the totality
+    of the cleansing.
+    
+    With that out of the way, because there are infinite numbers, there
+    are infinite "levels" of cleanliness. The percentage can be any number
+    between 0 and 100. However, some people don't use soap or shampoo
+    at all. Sometimes, people have a quick shower to rinse off sweat and
+    nothing else. In cases like this, and in all cases really, it may be
+    more useful to measure the change in cleanliness level. In other
+    words, we will count how much cleaner you got. This should exclude
+    obvious extreme cases like not turning on the water. A shower must
+    constitute of water at the very least, and the water must touch you.
+    Usage of soap is not a must, but another factor in cleanliness.
+    A shower using a bit of soap cleans more than a shower without any.
+    That translates meaningfully into the calculation and measurement.
+    
+    To reduce the number of outcomes from infinite to usable, we can
+    define ranges and conditions. For example, we can produce a binary
+    of "clean" and "not clean" based on a threshold of cleanliness. If your
+    cleanliness at the end of the shower is above a certain percentage, you
+    are clean. An issue with this is that you may have been clean before the
+    shower too, so this does not show the effect of the shower. We can thus
+    return to the change-measuring method: a shower is effective if its
+    net cleanliness change meets the amount required by the showerer. This
+    gives room for relative usefulness of the shower. Someone entering the
+    shower might not be looking for the deepest cleanse. I disagree with
+    that personally, but that does not matter.

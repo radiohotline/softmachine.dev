@@ -1,0 +1,35 @@
+        <div class="flex">
+            <a href="brain.html">
+            <img src="img/index/brain.png" style="max-width: 200px;" </div>
+
+        <div class="flex">
+            <a href="art.html">
+		    <img src="img/index/art.png" style="max-width: 350px;" onmouseover="this.src='img/index/art_select.png';" onmouseout="this.src='img/index/art.png';"></a>
+
+            <div class="wrap">
+                <a href="moloch.html">
+
+                <div class="eye" style="top: 160px; left: 70px;">
+                    <div class="pupil"></div>
+                </div>
+
+                <div class="eye" style="top: 145px; left: 40px; width: 30px;">
+                    <div class="pupil"></div>
+                </div>
+
+                <img src="img/index/weener.png" style="max-width: 250px;" onmouseover="this.src='img/index/weener_select.png';" onmouseout="this.src='img/index/weener.png';"></a>
+            </div>
+
+            <a href="tech.html">
+                <img src="img/index/computer.png" style="max-width:350px;" onmouseover="this.src='img/index/computer_select.png';" onmouseout="this.src='img/index/computer.png';"></a>
+        </div>
+
+        <div class="flex">
+            <a href="creatures.html">
+            <img src="img/index/doll.png" style="max-width: 200px;" onmouseover="this.src='img/index/doll_select.png';" onmouseout="this.src='img/index/doll.png';"></a>
+            
+            <div style="width: 200px;"></div>
+
+            <a href="music.html">
+            <img src="img/index/music.png" style="max-width: 250px;" onmouseover="this.src='img/index/music_select.png';" onmouseout="this.src='img/index/music.png';"></a>
+        </div>

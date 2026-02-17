@@ -1,0 +1,238 @@
+body {
+    background-image: url(img/bg.jpg);
+    background-attachment: fixed;  
+    background-position: center;
+    background-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Mountains', Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(228, 222, 210);
+}
+
+p, li {
+    font-size: 1em;
+}
+
+p, li, summary, embed {
+    font-family: 'Nanum', Georgia, 'Times New Roman', Times, serif;
+    color: rgb(228, 222, 210);
+}
+
+a {
+    color: #8F2037;
+    font-family: 'HennyPenny', Georgia, 'Times New Roman', Times, serif;
+}
+
+a:hover {
+    filter: drop-shadow(0 0 5px #6b1020);;
+    font-style: italic;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 0px
+}
+
+.logo a {
+    font-family: 'Mountains', Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(228, 222, 210);
+}
+
+.logo a:hover {
+    filter: none;
+}
+
+.logo img {
+    width: 30rem;
+    transition: 0.4s;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.9));
+}
+
+.logo img:hover {
+    width: 35rem;
+    filter: drop-shadow(0 0 10px rgba(255,255,255,0.9));
+}
+
+.shadow {
+    margin: auto;
+    background-color: rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 20px 20px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 20px 20px rgba(0,0,0,0.6);
+    box-shadow: 0 0 20px 20px rgba(0,0,0,0.6);
+    border-radius: 20px;
+    padding: 0px 30px 0px 30px;
+}
+
+/*  graphical pages */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 50vh;
+    min-height: auto;
+}
+
+.flex a {
+    flex: 0 0 auto;
+    display: inline-block;
+    position: relative;
+    filter: none;
+    color: rgba(0,0,0,0);
+}
+
+.flex a::after {
+    content: "";
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    border-radius: 50%;
+    filter: blur(8px);
+    z-index: 0;
+    width: 90%;
+}
+
+.flex img {
+    display: block;
+    position: relative;
+    z-index: 1;
+    height: auto;
+}
+
+.flex img:hover {
+    /*-webkit-box-shadow: 0px 20px 50px 0px rgba(255,255,255,0.9);
+    -moz-box-shadow: 0px 20px 50px 0px rgba(255,255,255,0.9);
+    box-shadow: 0px 20px 50px 0px rgba(255,255,255,0.9);*/
+    filter: drop-shadow(0 0 10px rgba(255,255,255,0.9));
+}
+
+/* art */
+
+.art-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: none;
+    align-items: center;
+    align-self: flex-start;
+    gap: 20px;
+}
+
+@media (min-width: 900px) {
+    .art {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .art-nav {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .art-container {
+        flex-direction: row;
+    }
+
+    .art-container img {
+        height: 300px;
+        width: auto;
+        
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 20px;
+    }
+
+    .art-container {
+        flex-direction: column;
+    }
+
+    .art-container img {
+        height: auto;
+        width: 80vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+/* fonts */
+
+@font-face {
+    font-family: 'DynaPuff';
+    src: url('fonts/DynaPuff.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HennyPenny';
+    src: url('fonts/HennyPenny.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mountains';
+    src: url('fonts/MountainsofChristmas-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MountainsBold';
+    src: url('fonts/MountainsofChristmas-Bold.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nanum';
+    src: url('fonts/NanumMyeongjo-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nanum';
+    src: url('fonts/NanumMyeongjo-Bold.ttf') format('truetype');
+    font-display: swap;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'NanumExtra';
+    src: url('fonts/NanumMyeongjo-ExtraBold.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Schoolbell';
+    src: url('fonts/Schoolbell.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('fonts/SNPro.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('fonts/SNPro-Italic.ttf') format('truetype');
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Stylish';
+    src: url('fonts/Stylish.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cherry';
+    src: url('fonts/CherryBombOne.ttf') format('truetype');
+    font-display: swap;
+}

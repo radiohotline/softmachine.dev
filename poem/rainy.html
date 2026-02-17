@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>of an exchange between two on a rainy night</title>
+    <link href="rainy.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <div id="text" onclick="change()">
+
+      <div style="text-align: center; padding-top: 20%; padding-bottom: 15%; margin: auto;">
+        <i style="font-size: 90%;">of an exchange between two on a rainy night</i><br><i style="font-size: medium; ">(Feburary 2022, free-verse)</i>
+      </div>
+
+    </div>
+
+    <div id="nav" style="font-size: 20px; text-align: center;">
+      <a href="dissociated.html">prev poem&nbsp;</a>
+      <a onclick="minus();">prev line&nbsp;</a>
+      <a onclick="plus();">next line&nbsp;</a>
+      <a href="rainy.html">next poem</a>
+    </div>
+    
+    <script>
+      var value = 0;
+      const lines = [
+        'Throw away your soggy cigarette and ask me about my day.',
+        'Take a seat and smear with your finger the fuzz',
+        'of the meniscus of cold broth in a bowl.',
+
+        '<span style="color: white">textexttetxtextettxe</span>',
+
+        'Magnetise your bi-polar heart and show me where it points.',
+        'Guide me to the sea and explain',
+        "what you'll first fend off against:",
+        'the salt or the seaweed.',
+
+        '<span style="color: white">textexttetxtextettxe</span>',
+
+        'Where would you go',
+        'if you were to leave a trail of footsteps in the snow,',
+        "and weren't sure whether you'd come back the same or different?",
+
+        '<span style="color: white">textexttetxtextettxe</span>',
+
+        'I want to dissect your mind and study your thoughts.',
+        'I will determine whether your spirit is as fragile as',
+        'a rose in vitro,',
+        'as a naïve heart,',
+        'as the truth,',
+        'or if it is as sturdy as',
+        'history,',
+        'as a violin string,',
+        'as glass—',
+
+        '<span style="color: white">textexttetxtextettxe</span>',
+
+        '<a style="color: black" href="rainy.html">Next poem?</a><br><a style="color: black; font-size: 70%" href="../home.html">go home.</a>',
+      ]
+
+      const text = document.getElementById('text');
+      function change() {
+        console.log(value)
+        document.getElementById("text").classList.add('poem');
+        text.innerHTML = lines[value];
+        
+        if(value < 23) {
+          value++;
+        } else {
+          document.getElementById('text').style["margin-top"] = "20%";
+        }
+      }
+
+      function plus() {
+        document.getElementById("text").classList.add('poem');
+        text.innerHTML = lines[value];
+        if(value < 23) {
+          value++;
+        } else {
+          document.getElementById('text').style["margin-top"] = "20%";
+          value = 23;
+        }
+      }
+
+      function minus() {
+        document.getElementById("text").classList.add('poem');
+        if(value == 0) {
+          text.innerHTML = '<div style="text-align: center; margin: 0%; padding: 0%"><i style="font-size: 90%;">of an exchange between two on a rainy night</i><br><i style="font-size: medium;">(Feburary 2022, free-verse)</i></div>';
+          value = 0;
+        } else {
+          value--;
+          text.innerHTML = lines[value];
+        }
+      }
+    </script>
+  </body>
+</html>
