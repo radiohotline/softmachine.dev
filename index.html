@@ -38,13 +38,13 @@
         #two a:nth-child(2)::after {
             bottom: 2%;
             left: 8%;
-	    height: 10%;
+	        height: 10%;
         }
 
         #two a:nth-child(3)::after {
             bottom: 0px;
             left: 0px;
-	    width: 105%;
+	        width: 105%;
             height: 45%;
         }
 
@@ -58,26 +58,24 @@
             bottom: 5%;
             left: 5%;
             height: 55%;
-	    width: 102%;
+	        width: 102%;
         }
         
         .eye {
-            width: 2.4vw;
-            height: 2.4vw;
-            background: rgb(209, 209, 209);
+            background: rgb(212, 212, 212);
             border-radius: 50%;
-            position: relative;
+            position: absolute;
             display: inline-block;
-            margin: 20px;
+            margin: 0;
             overflow: hidden;
             z-index: 2;
         }
 
         .white {
             width: 100%;
-            height: 60%;
-            box-shadow: 0px 0px 10px 3px white;
-            background: white;
+            height: 50%;
+            box-shadow: 0px 0px 7px 3px rgb(230, 230, 230);
+            background: rgb(230, 230, 230);
             border-radius: 50%;
             position: absolute;
             top: 70%;
@@ -87,8 +85,8 @@
         }
 
         .pupil {
-            width: 0.63vw;
-            height: 0.63vw;
+            width: 25%;
+            aspect-ratio: 1 / 1;
             background: rgb(17, 17, 17);
             border-radius: 50%;
             position: absolute;
@@ -98,12 +96,25 @@
             z-index: 2;
         }
 
+        .shine {
+            width: 17%;
+            aspect-ratio: 1 / 1;
+            background: rgba(255, 255, 255, 0.6);
+            box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 0.6);
+            border-radius: 50%;
+            position: absolute;
+            top: 25%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+            z-index: 3;
+        }
+
         .logo {
             text-align: center;
             top: 0;
             left: 0;
             position: fixed;
-            margin: 40px;
+            margin: 20px 40px;
         }
 
         .logo img {
@@ -125,37 +136,39 @@
     <div>
         <div id="one" class="flex">
             <a href="brain.html">
-            <img src="img/index/brain.png" style="max-width: 10.5vw;"></a>
+            <img src="img/index/brain.png" style="width: 10.5vw;"></a>
         </div>
 
         <div id="two" class="flex">
             <a href="art.html">
-		    <img src="img/index/art.png" style="max-width: 18.5vw;"></a>
+		    <img src="img/index/art.png" style="width: 18.5vw;"></a>
 
             <a href="moloch.html" class="weener">
-                <!--<div class="eye" style="top: 5%; left: 10%;">
+                <div class="eye" style="top: 19%; left: 37%; width: 15%; height: 8.5%;">
                     <div class="white"></div>
                     <div class="pupil"></div>
+                    <div class="shine"></div>
                 </div>
 
-                <div class="eye" style="top: 19vh; left: 1.25vw; width: 2vw">
+                <div class="eye" style="top: 16%; left: 56%; width: 14%; height: 8.5%">
                     <div class="white"></div>
                     <div class="pupil"></div>
-		</div>-->
+                    <div class="shine"></div>
+		        </div>
 
-                <img src="img/index/weener.png" style="max-width: 13.5vw;">
+                <img src="img/index/weener.png" style="width: 13.5vw;">
             </a>
 
             <a href="tech.html">
-                <img src="img/index/computer.png" style="max-width: 18.5vw;"></a>
+                <img src="img/index/computer.png" style="width: 18.5vw;"></a>
         </div>
 
         <div id="three" class="flex" style="gap: 10vw;">
             <a href="creatures.html">
-            <img src="img/index/doll.png" style="max-width: 10.5vw;"></a>
+            <img src="img/index/doll.png" style="width: 10.5vw;"></a>
 
             <a href="music.html">
-            <img src="img/index/music.png" style="max-width: 13.5vw;"></a>
+            <img src="img/index/music.png" style="width: 13.5vw;"></a>
         </div>
     </div>
 

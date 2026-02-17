@@ -10,15 +10,11 @@
 
     <title>Soft Machine | Music</title>
     <style>
-        body {
-            color: white;
-        }
-
         #main {
             /*border: dotted;
             border-color: #8F2037;*/
             width: 80vw;
-	    margin: auto;
+	        margin: auto;
             background-color: rgba(0, 0, 0, 0.8);
             box-shadow: 0 0 20px 25px rgba(0,0,0,0.8);
             border-radius: 10px;
@@ -29,6 +25,7 @@
             justify-content: center;
             gap: 50px;
             flex-wrap: wrap;
+            margin-bottom: 20px;
         }
 
         .container {
@@ -48,14 +45,14 @@
         }
 
         h2 {
-            font-size: 18px;
             font-family: 'Nanum', Georgia, 'Times New Roman', Times, serif;
             font-weight: bold;
+            font-size: 1.3em;
         }
 
         .genre {
             font-style: italic;
-            font-size: 70%;
+            font-size: 0.9em;
         }
 
         .sticky {
@@ -64,6 +61,7 @@
             right: 0;
             z-index: 3;
             padding: 10px;
+            width: 15%;
         }
 
         .links {
@@ -75,20 +73,39 @@
 
         .links a {
             background-color: #8F2037;
-            border-radius: 15px;
+            border-radius: 20px;
             padding: 10px;
             border:#611121 solid;
             box-shadow: 0 0 10px 5px #611121 inset;
             margin: 10px;
-            font-size: 2em;
-            color: white;
+            font-size: 1.5em;
+            color: rgb(202, 200, 200);
             font-family: DynaPuff, Verdana, sans-serif;
             display: inline-block;
+            text-decoration: none;
+            transition: 0.05s;
         }
 
         .links a:hover {
             background-color: #c72c4b;
             filter: none;
+            font-style: normal;
+        }
+
+        .links a:active {
+            background-color: #ff7893;
+            border: #c72c4b solid;
+            box-shadow: 0 0 10px 5px #c72c4b inset;
+            font-size: 1em;
+        }
+
+        #gnome {
+            background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(img/gnome.jpg); 
+            background-size: cover;
+        }
+
+        #gnome p, #gnome h2 {
+            color: black !important;
         }
     </style>
 </head>
@@ -100,10 +117,10 @@
         <br>
         <a href="https://coff.ee/teethinvitro">Support</a>
     </div>
-    <img src="img/music/guitar.gif" style="width: 200px;" class="sticky">
+    <img src="img/music/guitar.gif" class="sticky">
     <div id="main">
         <div class="intro">
-            <div style="width: 400px;">
+            <div style="width: 40%;">
                 <h1>Music</h1>
                 <p>
                     I have been composing music since 2018, making shitty beats in LMMS and composing theme songs on piano,
@@ -122,8 +139,8 @@
             <h2>Echo No Leaves Bide</h2>
             <p>I made this for a comp, but I ended up using another track for it.</p>
                 <audio loading="lazy" controls="true">
-                    <source src="https://files.catbox.moe/75sf6u.ogg">
-                    </audio>
+                    <source src="music/echo.ogg">
+                </audio>
             <p><a href="https://sodomitesneurodivergentes.bandcamp.com/album/the-great-sodomite-ass-hyena-motherfucker">Here is the compilation</a>.</p>
             <p class="genre">(experimental, noise)</p>
             </div>
@@ -158,33 +175,33 @@
               <p>(Some) music I made for Moloch that ended up being too fast and crowded. Whether or not I include them in the Bandcamp release depends on whether or not I can recover the tracks (Element, my VST3 host, got messed up in projects after I reinstalled my OS). For now, they'll be bonuses on my website (here!).</p>
               <h2>Cave</h2> (new version of blue crystal cave)
               <audio loading="lazy" controls="true">
-                  <source src="https://file.garden/ZlXIpF4XZwrMebGM/music/cave%20new.mp3">
+                  <source src="music/cave new.mp3">
               </audio>
-              <h2>"Fell in Well"</h2> (untitled)
+              <h2>"Fell in Well"</h2>
               <p>This one is actually an arrangement of a <a href="https://youtu.be/jKMNIB9sk18?si=SdpZsTv84OdCyqy5&t=59">piano warmup exercise</a> by Nahre Sol.
               For the piano, I only really composed the fourth variation in the pattern.
               I removed it from the soundtrack because it was too fast and because I don't want to take credit for the melody.</p>
               <audio loading="lazy" controls="true">
-                  <source src="https://file.garden/ZlXIpF4XZwrMebGM/music/fell%20in%20well%20uhhh.mp3">
+                  <source src="music/fell in well uhhh.mp3">
               </audio>
               <p>The following version was supposed to play first in the game. Upon finding something in the area, the rest of it will "unlock", and the above rendition will begin playing.</p>
               <audio loading="lazy" controls="true">
-                  <source src="https://file.garden/ZlXIpF4XZwrMebGM/music/fell%20in%20a%20well%20gemini.mp3">
+                  <source src="music/fell in a well gemini.mp3">
               </audio>
               <h2>Lab themes</h2>
               <p>These are likely to make it into the final game if I don't make anything better.</p>
               <audio loading="lazy" controls="true">
-                  <source src="https://file.garden/ZlXIpF4XZwrMebGM/music/lab%20question%20mark%20192.mp3">
+                  <source src="music/lab question mark 192.mp3">
               </audio>
               <audio loading="lazy" controls="true">
-                  <source src="https://file.garden/ZlXIpF4XZwrMebGM/music/lab%20true%20192.mp3">
+                  <source src="music/lab true 192.mp3">
               </audio>
               <audio loading="lazy" controls="true">
-                  <source src="https://file.garden/ZlXIpF4XZwrMebGM/music/sci%20fi%20bg%20low%20drift.mp3">
+                  <source src="music/sci fi bg low drift.mp3">
               </audio>
-              <h2>Underground City</h2> (this is the oldest one among these)
+              <h2>Underground City</h2>
               <audio loading="lazy" controls="true">
-                <source src="https://file.garden/ZlXIpF4XZwrMebGM/underground%20city.mp3">
+                <source src="music/underground city.mp3">
               </audio>
               <p class="genre">(soundtrack, ambient)</p>
             </div>
@@ -192,7 +209,7 @@
             <div class="shitpost">
                 <h2>Chickadee diss track - Dec 17th, 2023</h2>
                 <video width="320" height="240" controls>
-                  <source src="https://file.garden/ZlXIpF4XZwrMebGM/chickadee-diss-track.mp4" type="video/mp4">
+                  <source src="music/chickadee-diss-track.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
                 <p class="genre">(shitpost)</p>
@@ -202,7 +219,7 @@
               <h2>Greg ending - Jul 2nd, 2023</h2>
               <p>Digital remake of menu reprise, with Murumart's ending theme appended to it, but my instrumentation of it. I also rewrote its bass.</p>
               <audio loading="lazy" controls="true">
-                <source src="https://file.garden/ZlXIpF4XZwrMebGM/menu%202%20reprise%20ending%20new%20export.ogg" type="audio/ogg">
+                <source src="music/menu 2 reprise ending new export.ogg" type="audio/ogg">
               </audio>
               <p class="genre">(soundtrack)</p>
             </div>
@@ -210,25 +227,16 @@
             <div class="electronic">
                 <h2>Sacred - Apr 28th, 2023</h2>
                 <p>Version 2, where I added EQ and more volume control to bring out details that were drowned in the original mix, and I also added a vocal chop repeat somewhere in there. You'll know which one if you've heard version 1.</p>
-                <audio loading="lazy" controls="true" controlList="nodownload">
-                    <source src="https://files.catbox.moe/mm965r.ogg" type="audio/ogg">
+                <audio loading="lazy" controls="true">
+                    <source src="music/sacred.ogg" type="audio/ogg">
                 </audio>
                 <p class="genre">(dnb, breakcore, electronic)</p>
             </div>
             
-            <div class="electronic jummbox">
-                <h2>Valguses - Apr 25th, 2023</h2>
-                <p>A highlight track from my album Jummbox Vol. 1 (2024).</p>
-                <audio loading="lazy" controls="true" controlList="nodownload">
-                    <source src="https://files.catbox.moe/eypaqf.mp3" type="audio/mpeg">
-                </audio>
-                <p class="genre">(electronic, jummbox)</p>
-            </div>
-            
             <div class="ost">
             <h2>Blue Crystal Cave - Mar 28th, 2023</h2>
-                    <audio loading="lazy" controls="true" controlList="nowdownload">
-                        <source src="https://file.garden/ZlXIpF4XZwrMebGM/music/Radio%20-%20Reflection%20in%20a%20Blue%20Crystal%20new%20mix.ogg">
+                    <audio loading="lazy" controls="true">
+                        <source src="music/Radio - Reflection in a Blue Crystal new mix.ogg">
                     </audio>
                     <p>This is a new mix of the song uploaded in my old blog.</p>
                     <p class="genre">(soundtrack)</p>
@@ -237,8 +245,8 @@
             <div class="acoustic ost">
                 <h2>a smoke in the tropical paradise that is a fisherman's hut or hut waltz - Mar 19th, 2023</h2>
                 <p>OST for Greg RPG.</p>
-                <audio loading="lazy" controls="true" controlList="nowdownload">
-                    <source src="https://files.catbox.moe/btzrnq.ogg" type="audio/ogg">
+                <audio loading="lazy" controls="true">
+                    <source src="music/tropical.ogg" type="audio/ogg">
                 </audio>
                 <p class="genre">(acoustic, soundtrack)</p>
             </div>
@@ -247,8 +255,8 @@
                 <h2>Demo of Clock Tower - Mar 19th, 2023</h2>
                     <p>I say messy because the practice was very good, but what I ended up recording was not as great, but it was received well by friends. It was intended to be a continuation to menu 2, hence making it some epic-ish reprise, but it became its own song instead.</p>
                     <p>Round and round and round...</p>
-                    <audio loading="lazy" controls="true" controlList="nowdownload">
-                        <source src="https://files.catbox.moe/zghtx7.ogg" type="audio/ogg">
+                    <audio loading="lazy" controls="true">
+                        <source src="music/clocktower.ogg" type="audio/ogg">
                     </audio>
                 <p class="genre">(acoustic, soundtrack)</p>
             </div>
@@ -256,8 +264,8 @@
             <div class="folk acoustic ost">
                 <h2>Menu 2 - Reprise - Mar 19, 2023</h2>
                 <p>Re-recording of menu_2, from my brainstorm.</p>
-                <audio loading="lazy" controls="true" controlList="nowdownload">
-                    <source src="https://files.catbox.moe/czps4k.ogg" type="audio/ogg">
+                <audio loading="lazy" controls="true">
+                    <source src="music/menu2reprise.ogg" type="audio/ogg">
                 </audio>
                 <p class="genre">(folk, acoustic, soundtrack)</p>
             </div>
@@ -266,25 +274,25 @@
                 <h2>Greg menu themes</h2>
                 <p>At first, I recorded two files, one was a guitar rendition of something game creator Murumart quickly composed, and the other recording was my own original brainstorm (including a few short ideas). Murumart edited them into 7 menu themes:</p>
                 <audio loading="lazy" controls="true">
-                    <source src="https://file.garden/ZlXIpF4XZwrMebGM/mus_menu1.ogg" type="audio/ogg">
+                    <source src="music/mus_menu1.ogg" type="audio/ogg">
                 </audio>
                 <audio loading="lazy" controls="true">
-                    <source src="https://file.garden/ZlXIpF4XZwrMebGM/mus_menu2.ogg" type="audio/ogg">
+                    <source src="music/mus_menu2.ogg" type="audio/ogg">
                 </audio>
                 <audio loading="lazy" controls="true">
-                    <source src="https://file.garden/ZlXIpF4XZwrMebGM/mus_menu3.ogg" type="audio/ogg">
+                    <source src="music/mus_menu3.ogg" type="audio/ogg">
                 </audio>
                 <audio loading="lazy" controls="true">
-                    <source src="https://file.garden/ZlXIpF4XZwrMebGM/mus_menu4.ogg" type="audio/ogg">
+                    <source src="music/mus_menu4.ogg" type="audio/ogg">
                 </audio>
                 <audio loading="lazy" controls="true">
-                    <source src="https://file.garden/ZlXIpF4XZwrMebGM/mus_menu5.ogg" type="audio/ogg">
+                    <source src="music/mus_menu5.ogg" type="audio/ogg">
                 </audio>
                 <audio loading="lazy" controls="true">
-                    <source src="https://file.garden/ZlXIpF4XZwrMebGM/mus_menu6.ogg" type="audio/ogg">
+                    <source src="music/mus_menu6.ogg" type="audio/ogg">
                 </audio>
                 <audio loading="lazy" controls="true">
-                    <source src="https://file.garden/ZlXIpF4XZwrMebGM/mus_menu7.ogg" type="audio/ogg">
+                    <source src="music/mus_menu7.ogg" type="audio/ogg">
                 </audio>
                 <p>The full soundtrack is <a href="https://murumart.bandcamp.com/album/greg-rpg-original-soundtrack">here</a></p>
                 <p class="genre">(acoustic, soundtrack)</p>
@@ -293,8 +301,8 @@
             <div class="electronic">
                 <h2>Untitled - Mar 24 2023</h2>
                 <p>All sounds except for the fretless bass where made from samples of one song.</p>
-                <audio loading="lazy" controls="true" controlList="nowdownload">
-                    <source src="https://files.catbox.moe/m0s0ae.ogg" type="audio/ogg">
+                <audio loading="lazy" controls="true">
+                    <source src="music/untitled.ogg" type="audio/ogg">
                 </audio>
                 <p class="genre">(electronic)</p>
             </div>
@@ -302,16 +310,16 @@
             <div class="jazz">
                 <h2>Mail Mission Jazz - Mar 7th, 2023 (Jul 19th, 2023 export)</h2>
                 <p>Jazz cover of a <a href="https://murumart.bandcamp.com/track/mail-mission">Greg OST track</a>. Incomplete.</p>
-                <audio loading="lazy" controls="true" controlList="nodownload">
-                    <source src="https://file.garden/ZlXIpF4XZwrMebGM/biking%20jazz%20wip.ogg" type="audio/ogg">
+                <audio loading="lazy" controls="true">
+                    <source src="music/biking jazz wip.ogg" type="audio/ogg">
                 </audio>
                 <p class="genre">(jazz)</p>
             </div>
             
             <div class="acoustic folk">
                 <h2>Bread - Feb 20th, 2023</h2>
-                <audio loading="lazy" controls="true" controlList="nodownload">
-                    <source src="https://files.catbox.moe/g6ngn4.ogg" type="audio/ogg">
+                <audio loading="lazy" controls="true">
+                    <source src="music/bread.ogg" type="audio/ogg">
                 </audio>
                 <p>Grabbed my guitar. Played that. Played it again to record it. Loaded it into LMMS and figured out the BPM, then added the rest of it. After that I recorded that last section but it has bad clipping.</p>
                 <p>This is a demo to lay the idea down (inspired by Clay Parton). I will remake this at some point into a finished song because I hate the distortion.</p>
@@ -321,22 +329,18 @@
             <div class="electronic ambient electronic">
                 <h2>Olen Väsinud - Feb 4th, 2023</h2>
                 <p>The file is called "this came to me in a vision at 8 am" because that's what this is.</p>
-                <audio loading="lazy" controls="true" controlsList="nodownload">
-                    <source src="https://files.catbox.moe/9yshvd.ogg" type="audio/ogg" />
+                <audio loading="lazy" controls="true">
+                    <source src="music/olenvasinud.ogg" type="audio/ogg" />
                 </audio>
                 <p>My magnum opus.</p>
                 <p class="genre">(electronic, ambient)</p>
             </div>
             
-            <div class="rock" style="background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(img/gnome.jpg); background-size: cover;">
+            <div class="rock" id="gnome">
                 <h2>Song of Storms - Jan 29th, 2023</h2>
                 <p>This is a "moss rock" remix of Song of Storms, based on <a href="img/gnome.jpg">this image</a>. I went for prog.</p>
-                <audio loading="lazy" controls="true" controlsList="nodownload">
-                    <source src="https://files.catbox.moe/cr9mgc.ogg" type="audio/ogg" />
-                </audio>
-                <p>Scrapped 7/4 section (while the DAW was set to 7/4, the actual work wasn't in 7/4)</p>
-                <audio loading="lazy" controls="true" controlsList="nodownload">
-                    <source src="https://files.catbox.moe/grc33w.ogg" type="audio/ogg" />
+                <audio loading="lazy" controls="true">
+                    <source src="music/songofstorms.ogg" type="audio/ogg" />
                 </audio>
                 <p class="genre">(progressive rock)</p>
             </div>
