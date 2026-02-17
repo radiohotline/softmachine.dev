@@ -1,0 +1,56 @@
+.container {
+	margin: auto;
+	border: 4px solid black;
+	border-radius: 15px;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 15px;
+}
+
+.members {
+	margin: auto;
+	border: 2px solid black;
+	border-radius: 15px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 15px;	
+}
+
+#members {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 0%;
+}
+
+td {
+	padding: 10px;
+}
+
+img {
+	padding-right: 15px;
+}
+
+.icon {
+	height: 40px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	margin-top: 0%;
+	text-align: center;
+}
+
+textarea {
+	width: 20%;
+	height: 10%;
+	margin-bottom: 3%;
+	display: inline-block;
+}
+
+footer {
+	margin-top: 2%;
+	text-align: center;
+}

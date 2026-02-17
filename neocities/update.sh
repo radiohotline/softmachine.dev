@@ -3,4 +3,4 @@ FILE=neocities/index.html
 
 sed -e "s/Updated: .*<\/p>/Updated: $NOW<\/p>/g" -i '' $FILE
 
-~/bin/neoup -f neocities/index.html
+neoup -f neocities/index.html

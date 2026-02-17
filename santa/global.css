@@ -1,0 +1,47 @@
+/*
+FONT FACES
+*/
+@TEMP {
+    font-family: '';
+    src: url('');
+}
+
+/*
+ROOTS
+*/
+:root {
+    --bg: #d6d6d6;
+    --accent: #465864;
+    --white: #f0e5d1;
+    --blue: #125484;
+    --red: #d55031;
+}
+
+/*
+MISC
+*/
+html {
+    cursor: url(imgs/postal_cursor_close.png), default;
+    image-rendering: pixelated;
+    text-transform: lowercase;
+}
+
+button:hover, a:hover, a:active, button:active {
+    cursor: url(imgs/postal_cursor_open.png), pointer;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    font-size: 14px;
+}
+
+a:link, a:visited {
+    color: var(--red);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--blue);
+}

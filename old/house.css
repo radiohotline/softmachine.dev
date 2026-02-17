@@ -53,7 +53,11 @@ a:active {
     overflow: scroll;
     text-align: justify;
     margin-right: 5px;
+<<<<<<< HEAD
+    margin-top: 5px;
+=======
     margin-top: 20px;
+>>>>>>> 60eb045c37c24677088f13cdded9408c292f65ff
     padding: 0px;
 }
 
@@ -77,4 +81,8 @@ a:active {
 
 body {
     margin: 20px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 60eb045c37c24677088f13cdded9408c292f65ff

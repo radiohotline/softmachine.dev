@@ -1,0 +1,12 @@
+<table>
+    <tr>
+      <td class='webring-prev'><a href='https://teethinvitro.neocities.org/webring/linuxring/redirect/prev.html'>← </a></td>
+      <td class='webring-info'>
+        Member of the *nixRing<br>
+        <span class='webring-links'>
+          <a href='https://teethinvitro.neocities.org/webring/linuxring/'><img src="https://teethinvitro.neocities.org/webring/linuxring/script/tuxicon.png" width="10%"></a>
+        </span>
+      </td>
+      <td class='webring-next'><a href='https://teethinvitro.neocities.org/webring/linuxring/redirect/next.html'> →</a></td>
+    </tr>
+</table>
