@@ -1,0 +1,202 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="unicode">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="The Weight of Comfort">
+    <meta name="keywords" content="Personal, Music, Poetry, Art, Radiohotline, Teethinvitro">
+    <meta name="author" content="Radiohotline">
+    <link href="house.css" rel="stylesheet">
+    <title>Soft Machine | About</title>
+    <style>
+        @media (max-width: 900px) {
+            .col {
+                display: block;
+            }
+
+            #left, #right, #center {
+                width: 90% !important;
+                margin: auto;
+                padding: 0 !important;
+            }
+
+            #left, #right {
+                border-right: none !important;
+                border-left: none !important;
+                border-bottom: 1px solid black;
+            }
+
+            #left {
+                margin-bottom: 20px;
+            }
+        }
+
+        #left {
+            width: 20%;
+            text-align: justify;
+            padding: 0 20px 0 0;
+            border-right: 1px solid black;
+        }
+
+        #center {
+            padding-left: 10px;
+            width: 65%;
+        }
+
+        #right {
+            width: 15%;
+            text-align: justify;
+            padding-left: 10px;
+            border-left: 1px solid black;
+            font-size: small;
+        }
+
+        #square {
+            height: 400px;
+            width: 400px;
+            margin: auto;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            text-align: justify;
+            font-size: larger;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <h1>About</h1>
+        <h1 class="logo"><a href="index.html">Soft Machine</a></h1>
+        <h1 id="home">House</h1>
+    </div>
+
+    <script>
+        (function house() {
+            var words = ['Huis','Strehë','منزل','Տուն','Etxe','বাডি','Къща','Casa','ផទហ','房子','Kuća','Dům','Hus','Huis','House','Maja','Talo','Maison','სახლი','Haus','Σπίτι','ઘર','בית','घर','Ház','Hús','Rumah','Teach lán','Casa','家','Omah','집','Domum','Māja','Namas','Куќа','Rumah','വീട','Dar','Whare','घर','Байшин','घर','Hus','خانه','Dom','Casa','ਘਰ','Casă','Дом','Fale','Кућу','Dom','Hiša','Casa','Nyumba','Hus','வடு','Йорт','ఇలలు','บาน','Fale','Ev','Будинок','گھر','Uy','Căn nhà','Letya’','Indlu'];
+            var random = Math.floor(Math.random() * words.length);
+            document.getElementById('home').innerHTML = words[random];
+        })();
+    </script>  
+
+    <div class="col">
+        <div id="left">
+            <h2 style="margin-top: 0px;">Webmaster</h2>
+                <p>radiohotline[at]disroot[dot]org - <a href="radio.asc">PGP key</a></p>
+                <p>The more I try to outline who I am, the more I lose grasp.<sup>1</sup></p>
+                <p>
+                    I'm an artist, musician, and "programmer" (I mainly use C), with a passion for music, computers (both CS and CE), experimental art, and other things.
+                    I am a linguistics student.
+                    <br><br>
+                    I love learning about everything. More persistent interests include philosophy, literature, linguistics, psychology,
+                    cryptanalysis, video games and game development, filmmaking,
+                    electronics, ham radio, dinosaurs, birdwatching, and FOSS.
+                </p>
+                <hr>
+                <p class="j">
+                    <sup>1</sup>
+                    Fruit bled in the palm<br>
+                    Streaking life across my skin<br>
+                    I am real again<br>
+                </p>
+
+                <p>
+                    <sup>2</sup>
+                    <img src=img/teethinvitro.gif alt="Site button">
+                </p>
+                
+                <br>
+
+                <div id="buttons" style="text-align: center;">
+                    <img src="img/blinkies/am.gif" alt="">
+                    <img src="img/blinkies/bloodsucker.gif" alt="">
+                    <img src="img/blinkies/figment.gif" alt="">
+                    <img src="img/blinkies/fragile.gif" alt="">
+                    
+                    <img src="img/blinkies/happy.gif" alt="">
+                    <img src="img/blinkies/malpractice.gif" alt="">
+                    <img src="img/blinkies/ohworm.gif" alt="">
+                    <img src="img/blinkies/wug.gif" alt="">
+
+                    <br>
+                    
+                    <img src="img/stamps/gointhedark.gif" alt="">
+                    <img src="img/stamps/kafka.png" alt="">
+                    <img src="img/stamps/thog.png" alt="">
+                </div>     
+        </div>
+
+        <div id="center">
+            <div id="square">
+                <p><span style="font-weight: bold;">History:</span> Soft Machine<sup>2</sup> started in 2021 under the name "Randal", and it was only populated in 2022 when it was renamed to "Teeth in Vitro", when it solely
+                    held the Nirvana page. After a hiatus, it was relaunched in 2024 as a much more
+                    compact personal website, the modest version you can find under /min<span class="bsq"></span>. In late 2025, a style based on the typography of House of Leaves was used,
+                    as on this page. It is archived under /old. As of 2026, the site is themed around my project "Moloch".
+                    You pass by people every day and they don't leave an impression on you, and neither will I, but maybe I will leave a mark on the world as someone who merely
+                    existed. <span style="font-weight: bold;">Aim:</span> The site serves as a hub for all my projects, ranging from art to techy escapades. Essays may be shared if a topic lingers on my mind.
+                </p>            
+            </div>
+		
+        <div style="padding: 0 15px 0 15px;">
+            <h2>Inspiration</h2>
+            <p>
+                    I believe in self-sufficiency as a lifestyle, and this extends into my love for DIY. If I can make something myself instead of buying it, I attempt to do it.
+                    As a result, I love open-source hardware projects, but DIY includes crafts and clothes.
+                    <br><br>
+                    I am deeply fascinated by human life from the Paleolithic to the Bronze Age. Even though I am drawn to anthropological history, I despise mankind and what
+                    it made, but I have a soft spot for prehistoric settlements and early civilization, especially Mesopotamian.
+                    <br><br>
+                    I'm also fascinated by categorization, data archives and collections of basically anything, tools, trinkets, mechanisms, and musical instruments.
+                    A lot of my interests are off-shoots or combinations of each other, and my aspirations lay everywhere since my dream is to combine the things that
+                    I enjoy doing into a valuable creation.
+            </p>
+
+            <p style="text-align: center">***</p>
+
+            <div class="blsq" style="padding: 5px;">
+                <img src="img/buttons/apples.png" alt="">
+                <img src="img/buttons/bestview.gif" alt="">
+                <img style="width:88px; height:31px;" src="img/buttons/evil.gif" alt="">
+                <a href="https://sitcomtheory.org/"><img style="width:88px; height:31px;" src="img/buttons/sitcombutton.gif" alt="sitcomtheory.org"></a>
+                <img src="img/buttons/homestar.gif" alt="">
+                <a href="https://wiredcollective.neocities.org/webring"><img src="https://wiredcollective.neocities.org/webringimages/wiredcollectivebutton.png" alt="WIRED COLLECTIVE WEBRING"></a>
+                <img src="img/buttons/sharewareplease.gif" alt="">
+                <img src="img/buttons/thirdimpact.png" alt="">
+                <a href="https://publictransit.neocities.org/"><img src="img/buttons/transit.gif" alt="publictransit.neocities.org"></a>
+                <a href="https://dhmo.org/"><img style="width:88px; height:31px;" src="img/buttons/dhmo.png" alt="dhmo.org"></a>
+                <img style="width:88px; height:31px;" src="img/buttons/void.gif" alt="">
+                <img style="width:88px; height:31px;" src="img/buttons/xenia.gif" alt="">
+                <a href="https://theanarchistlibrary.org/special/index"><img style="width:88px; height:31px;" src="img/buttons/anarchist_lib.png" alt="theanarchistlibrary.org"></a>
+                <a href="https://archive.org"><img style="width:88px; height:31px;" src="img/buttons/archive.gif" alt="archive.org"></a>
+                <a href="https://zapatopi.net/treeoctopus/"><img style="width:88px; height:31px;" src="img/buttons/treeoctopus.png" alt="zapatopi.net/treeoctopus"></a>
+                <img style="width:88px; height:31px;" src="img/buttons/urappin.png" alt="">
+                <a href="https://crouton.net/"><img style="width:88px; height:31px;" src="img/buttons/crouton.png" alt="crouton.net"></a>
+                <img style="width:88px; height:31px;" src="img/buttons/furby.jpg" alt="">
+                <img style="width:88px; height:31px;" src="img/buttons/templeos.png" alt="">
+                <img style="width:88px; height:31px;" src="img/buttons/budgie.gif" alt="">
+            </div>
+
+            <p>
+                Do you remember the taste of your mother's flesh? Do you remember the smell of the angel's milk? Do you remember the metal joints that were once your bones? Do you remember the sound of the thunder that was once your heart? The ivory is the amalgam in your teeth. The flowers sit between the tangled strands of your perfumed hair. Your mother has long been dead, but her mass remains hidden in the overgrown and forgotten realm of your home, with rusted pipes still extending from the meat. You opened your eyes a thousand years ago, but have only blinked today, moisturizing your eyes for the first time and with it storing your memories in the record. You begin a new life everyday if you have no attachment to anything. Every item left behind is reborn every hour. Nothing holds the traces of your touch anymore. Everything around you has become a faded and swirling mess, floating like gas that carries you with ease. You are heavy. You are light. You do not know grief, but you know warmth. You knew one warmth. It is now cold all around you. You do not know if you are lost or at your new home. You do not care to know. You look up to the saturated blue sky, and it returns your glimpse with a blinding beam of red light. You have a feeling that the beam was once a white bundle of rays that softly painted your surroundings, but you can never be sure. With each passing day, you bury more of the past under the soft and wet clumps of soil that make up your world. You continue to crawl towards a God you wish to find. It is all you have.
+            </p>
+
+        </div>
+
+        </div>
+        
+        <div id="right" class="udown">
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis sem rutrum ligula blandit auctor ac at felis. Vestibulum ultricies mi ante, a lacinia eros cursus a. Quisque nisi turpis, sollicitudin ac erat vel, condimentum tempor libero. Vivamus in odio vitae arcu gravida aliquam. Nunc egestas ligula at blandit commodo. Pellentesque lorem neque, tristique sit amet ultricies ac, ultricies at sapien. Cras sed enim nec nunc convallis hendrerit porttitor semper lectus.
+            </p>
+            <p>
+            Nunc placerat leo et nunc pharetra tincidunt. Vestibulum sed hendrerit mauris. Nunc ut nisi eget est commodo feugiat in eu urna. Maecenas elementum maximus sollicitudin. Duis non dolor pellentesque, facilisis elit sed, sodales metus. Nulla dui augue, convallis id mauris vitae, lobortis dapibus ipsum. Vivamus viverra efficitur vestibulum.
+
+            Vivamus eleifend neque nec ante posuere, quis pretium turpis varius. Sed tincidunt enim placerat ante euismod lacinia. Praesent massa lacus, dapibus nec commodo vitae, auctor sed urna. Curabitur et suscipit nibh. In tincidunt fermentum est vitae rhoncus. Sed quis urna felis. Nulla vitae ipsum ut metus maximus aliquet sit amet id sem. Duis purus mauris, iaculis id quam suscipit, malesuada posuere ipsum.
+            </p>
+            <p class="minpass">
+            &emsp;&emsp;<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>&emsp;&emsp;<span> Pellentesque nulla orci, lacinia vitae aliquam ac,</span>&emsp;&emsp;<span> aliquam in nisi. Suspendisse</span>&emsp;&emsp;&emsp;&emsp;<span> efficitur nisl nibh, sit amet mollis purus blandit et. Ut velit diam, vehicula eget rhoncus ac, tincidunt at dolor. Nam rhoncus gravida mollis. Proin sem ipsum,</span>&emsp;&emsp;<span> sodales sed ornare a, venenatis ac ante. Donec cursus ligula augue, non blandit lacus dapibus id. Cras orci risus, cursus id faucibus id, iaculis a nibh. Proin in justo nec lectus convallis placerat.</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <span>Proin lacinia diam sit amet tellus malesuada bibendum. Suspendisse sagittis fermentum sem ut ultricies. Morbi egestas odio id feugiat vestibulum. Quisque</span>&emsp;&emsp;&emsp;&emsp;<span> sed tincidunt nibh. Quisque a pellentesque nunc.</span>
+            </p>
+       </div>
+    </div>    
+</body>
+</html>
