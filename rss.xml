@@ -5,14 +5,14 @@
 	<description>The Weight of Comfort</description>
 	<link>https://softmachine.dev</link>
 	<lastBuildDate>	
-		2026-02-16 20:36:22
+		2026-03-13 18:56:00
 	</lastBuildDate>
 	<ttl>20000</ttl>
 
 	<item>
-		<title>Site overhaul</title>
-	        <link>https://softmachine.dev</link>
-	        <description>The site has been redesigned, with added graphics, but some pages are WIP.</description>
+		<title>Setting Up Huion Kamvas 13 on Arch Linux</title>
+	        <link>http://tech.softmachine.dev/blog/huion</link>
+	        <description>Graphics tablet setup and troubleshooting on Linux</description>
 	</item>
 </channel>
 </rss>
