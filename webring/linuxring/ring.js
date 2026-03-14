@@ -92,6 +92,8 @@
 		'https://joelb.xyz/',
 		'https://innocentzero.is-a.dev/',
 		'https://coolpickles.neocities.org',
+		'https://tech-absurdist.neocities.org/',
+		'https://wrywerytwreywery.stupid.pizza/',
 	];
 	// widget html
 	// PREV and NEXT are replaced with neighbors' urls
