@@ -97,6 +97,9 @@
 		'https://kami-g.me/',
 		'https://avaloathelace.neocities.org/',
 		'https://tapeykatt.neocities.org/',
+		'https://saberonthe.net',
+		'https://russecke.net/',
+		'https://jarema.me',
 	];
 	// widget html
 	// PREV and NEXT are replaced with neighbors' urls

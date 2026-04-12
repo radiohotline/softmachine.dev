@@ -9,7 +9,7 @@
                         text-decoration: none;
                 }
         </style>
-        <a href="PREV">←</a>
+        <a href="https://teethinvitro.neocities.org/webring/linuxring/redirect/PREV">←</a>
         <a href="https://teethinvitro.neocities.org/webring/linuxring">
 		<div>
 			*nixRing
@@ -17,5 +17,5 @@
 			<img style="height: 25px;" src="https://teethinvitro.neocities.org/webring/linuxring/icon/tux.png">
 		</div>
 	</a>
-        <a href="NEXT">→</a>
+        <a href="https://teethinvitro.neocities.org/webring/linuxring/redirect/NEXT">→</a>
 </div>
