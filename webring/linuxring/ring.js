@@ -107,6 +107,7 @@
 		'https://www.veltron.net',
 		'https://tilde.club/~petbrain/',
 		'https://themewiki.neocities.org',
+		'https://xavierhm.com',
 	];
 	// widget html
 	// PREV and NEXT are replaced with neighbors' urls
