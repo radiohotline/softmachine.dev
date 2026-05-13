@@ -108,6 +108,9 @@
 		'https://tilde.club/~petbrain/',
 		'https://themewiki.neocities.org',
 		'https://xavierhm.com',
+		'https://markofiume.com/',
+		'https://arcane.kitties.cat/',
+		'https://ohnoitsnoah.com',
 	];
 	// widget html
 	// PREV and NEXT are replaced with neighbors' urls
@@ -124,7 +127,7 @@
 				}
 			</style>
 			<a href="PREV">←</a>
-			<a href="https://teethinvitro.neocities.org/webring/linuxring"><div>*nixRing<br><img style="height: 25px;" src="https://teethinvitro.neocities.org/webring/linuxring/icon/${document.currentScript.dataset.icon}.png"></div></a>
+			<a href="https://softmachine.dev/webring/linuxring"><div>*nixRing<br><img style="height: 25px;" src="https://softmachine.dev/webring/linuxring/icon/${document.currentScript.dataset.icon}.png"></div></a>
 			<a href="NEXT">→</a>
 		</div>`,
 		error: `<div>this site isn't part of the webring yet</div>`,
