@@ -109,7 +109,7 @@
 		'https://themewiki.neocities.org',
 		'https://xavierhm.com',
 		'https://markofiume.com/',
-		'https://arcane.kitties.cat/',
+		'https://plushiekitty.party/',
 		'https://ohnoitsnoah.com',
 	];
 	// widget html
