@@ -111,6 +111,7 @@
 		'https://markofiume.com/',
 		'https://plushiekitty.party/',
 		'https://ohnoitsnoah.com',
+		'https://venus-territory.nekoweb.org/',
 	];
 	// widget html
 	// PREV and NEXT are replaced with neighbors' urls
