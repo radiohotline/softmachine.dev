@@ -112,6 +112,9 @@
 		'https://plushiekitty.party/',
 		'https://ohnoitsnoah.com',
 		'https://venus-territory.nekoweb.org/',
+		'https://thelema.nekoweb.org',
+		'https://schizophyllu.me/',
+		'https://girlkissing.tips',
 	];
 	// widget html
 	// PREV and NEXT are replaced with neighbors' urls
