@@ -26,7 +26,8 @@ a {
 }
 
 a:hover {
-    filter: drop-shadow(0 0 5px #6b1020);;
+    /* color: #ff7a95; */
+    filter: drop-shadow(0 0 5px #6b1020);
     font-style: italic;
 }
 

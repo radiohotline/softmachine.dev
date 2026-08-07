@@ -5,9 +5,15 @@
 	<description>The Weight of Comfort</description>
 	<link>https://softmachine.dev</link>
 	<lastBuildDate>	
-		2026-03-13 18:56:00
+		2026-07-26 00:00:00
 	</lastBuildDate>
 	<ttl>20000</ttl>
+
+	<item>
+		<title>"The Bullet" and "How Dare The World Go On"</title>
+		<link>http://softmachine.dev/poetry</link>
+		<description>New poems</description>
+	</item>
 
 	<item>
 		<title>Setting Up Huion Kamvas 13 on Arch Linux</title>
