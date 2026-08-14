@@ -1,6 +1,6 @@
-num = int(input("How many? "))
-i = 0
-while i < num:
+open("output.txt", "w").close()
+open("urlout.txt", "w").close()
+while True:
 	url = input("URL: ")
 	name = url.replace("https:", "").replace("/","")
 	desc = input("Desc: ")
@@ -13,12 +13,20 @@ while i < num:
 	    icon.append(icon_in)
 	    count+=1
 
-	print("<tr>")
-	print("\t<td>", end='')
-	for item in icon:
-    		print('<img class="icon" src="icon/', item, '.png">', sep='', end='')
-	print('</td>')
-	print('\t<td><a href="', url, '">', name, '</a></td>', sep='')
-	print('\t<td>', desc, '</td>', sep='')
-	print("</tr>")
-	i+=1
+	with open("output.txt", "a") as f:
+		print("<tr>", file=f)
+		print("\t<td>", end='', file=f)
+		for item in icon:
+    			print('<img class="icon" src="icon/', item, '.png">', sep='', end='', file=f)
+		print('</td>', file=f)
+		print('\t<td><a href="', url, '">', name, '</a></td>', sep='', file=f)
+		print('\t<td>', desc, '</td>', sep='', file=f)
+		print("</tr>", file=f)
+	f.close()
+	with open("urlout.txt", "a") as f:
+		print(url, file=f)
+	f.close()
+	i = "y" in input("Continue? y/n ")
+	if not i:
+		break
+		

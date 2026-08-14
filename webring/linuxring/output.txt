@@ -1,0 +1,10 @@
+<tr>
+	<td><img class="icon" src="icon/arch.png"></td>
+	<td><a href="https://siteone.com">siteone.com</a></td>
+	<td>a ver ycools ite</td>
+</tr>
+<tr>
+	<td><img class="icon" src="icon/nixos.png"><img class="icon" src="icon/ubuntu.png"></td>
+	<td><a href="https://twotwo.com">twotwo.com</a></td>
+	<td>a very cool site number 2</td>
+</tr>
