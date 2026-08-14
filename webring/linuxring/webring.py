@@ -24,7 +24,7 @@ while True:
 		print("</tr>", file=f)
 	f.close()
 	with open("urlout.txt", "a") as f:
-		print(url, file=f)
+		print("'{}',".format(url), file=f)
 	f.close()
 	i = "y" in input("Continue? y/n ")
 	if not i:

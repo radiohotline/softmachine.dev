@@ -1,10 +1,55 @@
 <tr>
-	<td><img class="icon" src="icon/arch.png"></td>
-	<td><a href="https://siteone.com">siteone.com</a></td>
-	<td>a ver ycools ite</td>
+	<td><img class="icon" src="icon/fedora.png"></td>
+	<td><a href="https://cheztervargas.xyz/">cheztervargas.xyz</a></td>
+	<td>A tech portfolio with blogs written in a creative non-fiction manner or personal essays.</td>
 </tr>
 <tr>
-	<td><img class="icon" src="icon/nixos.png"><img class="icon" src="icon/ubuntu.png"></td>
-	<td><a href="https://twotwo.com">twotwo.com</a></td>
-	<td>a very cool site number 2</td>
+	<td><img class="icon" src="icon/nixos.png"></td>
+	<td><a href="https://callum.zip/">callum.zip</a></td>
+	<td> My personal website/blog. I write about FOSS software, privacy, and whatever else i feel like</td>
+</tr>
+<tr>
+	<td><img class="icon" src="icon/endeavouros.png"></td>
+	<td><a href="https://gicorada.com/">gicorada.com</a></td>
+	<td>Personal website with links to my projects and (small) blog</td>
+</tr>
+<tr>
+	<td><img class="icon" src="icon/gentoo.png"></td>
+	<td><a href="https://apenasgeisa.neocities.org">apenasgeisa.neocities.org</a></td>
+	<td>a forever in wip cozy website made straight from linux!</td>
+</tr>
+<tr>
+	<td><img class="icon" src="icon/arch.png"></td>
+	<td><a href="https://howsoonisnow.org/">howsoonisnow.org</a></td>
+	<td>Personal site for blogging, scrapbooking, musing, keepsakes, and a creative outlet.</td>
+</tr>
+<tr>
+	<td><img class="icon" src="icon/nixos.png"><img class="icon" src="icon/freebsd.png"></td>
+	<td><a href="https://zushi.codeberg.page/">zushi.codeberg.page</a></td>
+	<td>Personal site built with Nix (spoonful)</td>
+</tr>
+<tr>
+	<td><img class="icon" src="icon/debiam.png"><img class="icon" src="icon/raspbian.png"><img class="icon" src="icon/arch.png"><img class="icon" src="icon/freebsd.png"></td>
+	<td><a href="https://computatrum.nekoweb.org/">computatrum.nekoweb.org</a></td>
+	<td>Board of Computatrum, computer man who stuck in 2012 posts computery things and random thoughs</td>
+</tr>
+<tr>
+	<td><img class="icon" src="icon/alpine.png"><img class="icon" src="icon/plan9.png"></td>
+	<td><a href="https://orionbase.cc/">orionbase.cc</a></td>
+	<td>a website of mine hosted on a Raspberry Pi home server</td>
+</tr>
+<tr>
+	<td><img class="icon" src="icon/gentoo.png"><img class="icon" src="icon/haiku.png"><img class="icon" src="icon/alpine.png"></td>
+	<td><a href="https://restruct.nekoweb.org/">restruct.nekoweb.org</a></td>
+	<td>My personal website where the *fetch es of my computer and my laptop live, Also sometimes contains stuff about old software or hardware.</td>
+</tr>
+<tr>
+	<td><img class="icon" src="icon/debian.png"></td>
+	<td><a href="https://oli.xenia.gay/">oli.xenia.gay</a></td>
+	<td>Yet another personal site made by a computer-obessed dog</td>
+</tr>
+<tr>
+	<td><img class="icon" src="icon/nixos.png"></td>
+	<td><a href="https://sophii.xyz/">sophii.xyz</a></td>
+	<td>a personal website, linking to my blog, im porting stuff from my gopherhole (gopher://sophii.xyz) so its a bit barren right now.</td>
 </tr>

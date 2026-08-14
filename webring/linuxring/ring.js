@@ -115,6 +115,24 @@
 		'https://thelema.nekoweb.org',
 		'https://schizophyllu.me/',
 		'https://girlkissing.tips',
+		'https://harakiri.moe',
+		'https://abmurrow.com',
+		'http://arc-x.org/',
+		'https://adrianvic.github.io/',
+		'https://baristamae.neocities.org/',
+		'https://ws.h4rl3y.xyz',
+		'https://cheztervargas.xyz/',
+		'https://callum.zip/',
+		'https://gicorada.com/',
+		'https://apenasgeisa.neocities.org',
+		'https://howsoonisnow.org/',
+		'https://zushi.codeberg.page/',
+		'https://computatrum.nekoweb.org/',
+		'https://orionbase.cc/',
+		'https://restruct.nekoweb.org/',
+		'https://oli.xenia.gay/',
+		'https://sophii.xyz/',
+
 	];
 	// widget html
 	// PREV and NEXT are replaced with neighbors' urls
