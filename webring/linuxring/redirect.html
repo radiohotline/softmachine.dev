@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	</head>
+	<body>
+
+		<script src="https://softmachine.dev/webring/linuxring/ring.js" data-icon="tux"></script>
+		<script>
+			let params = new URLSearchParams(window.location.search);
+
+			let currentUrl = params.get("url");
+			let direction = params.get("go");
+
+			console.log("current URL:", currentUrl);
+			console.log("direction:", direction);
+
+			if (!currentUrl || !direction) {
+				document.body.textContent = "Missing parameters.";
+			} else {
+				let index = window.sites.indexOf(currentUrl);
+
+				if (index === -1) {
+					document.body.textContent = "Site not found in webring.";
+				} else {
+					let targetIndex;
+					if (direction == "next") {
+						targetIndex = index + 1;
+					} else if (direction == "prev") {
+						targetIndex = index - 1;
+					} else {
+						document.body.textContent = "Invalid direction.";
+					}
+
+					if (targetIndex >= window.sites.length) {
+						targetIndex = 0; // redirect to first site for last entry
+					}
+
+					if (targetIndex < 0) {
+						targetIndex = window.sites.length - 1; // last site
+					}
+
+					targetUrl = window.sites[targetIndex];
+					console.log("target site:", targetUrl);
+					window.location.href = targetUrl;
+				}
+			}
+		</script>
+		<h1>*nixRing</h1>
+		<p>Redirecting...</p>
+		<p>Click <a id="redirect-link" href="">here</a> if you are not redirected automatically.</p>
+	</body>
+</html>

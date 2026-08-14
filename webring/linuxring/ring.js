@@ -134,6 +134,9 @@
 		'https://sophii.xyz/',
 
 	];
+
+	window.sites = sites;
+	
 	// widget html
 	// PREV and NEXT are replaced with neighbors' urls
 	let widgets = {

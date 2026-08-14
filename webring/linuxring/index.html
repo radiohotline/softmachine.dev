@@ -36,7 +36,6 @@
 	<p>To be accepted, your site must not be empty and must contain something related to technology, FOSS, or *nix, be it software or hardware. It does not have to be the focus of the site.</p>
 	<p>Dead sites and sites that do not add the widget within a month of admission will be removed without notice to maintain webring health.</p>
 	<p>Email: radiohotline[at]disroot[dot]org</p>
-	<p style="font-weight: bold">I am currently on vacation. I have received an influx of emails recently. Expect responses to be delayed.</p>
 	<p style="font-size: small;">Image of Tux by Larry Ewing and <a href="https://en.wikipedia.org/wiki/GIMP" class="extiw" title="w:GIMP">The GIMP</a>, Attribution, <a href="https://commons.wikimedia.org/w/index.php?curid=80930">Link</a></p>
 	
   	<div class="flex">
@@ -50,10 +49,49 @@ The system/distro you use (for the icon):
 	  </div>
 	  
 	  <div class="element" style="width: 300px;">
-	    <p>Widget. Specify in email for JS-free version:</p>
+	    <p>JS Widget:</p>
 	    <textarea>
 <script defer src="https://softmachine.dev/webring/linuxring/ring.js" data-icon="tux"></script>
 	    </textarea>
+	    <p>JS-Free Widget (replace {YOURSITE} with your site URL [without https://]):</p>
+	    <textarea id="widget">
+<div id="nixring" style="display: flex; gap: 8px; align-items: center;">
+    <style type="text/css" scoped>
+	#nixring {
+		text-align: center;
+		color: black;
+	}
+	#nixring a {
+		color: black;
+		text-decoration: none;
+	}
+    </style>
+    <a href="https://softmachine.dev/webring/linuxring/redirect?url=https%3A%2F{YOURSITE}%2F&go=prev">←</a>
+    <a href="https://softmachine.dev/webring/linuxring">
+	    <div>*nixRing<br><img style="height: 25px;" src="https://softmachine.dev/webring/linuxring/icon/tux.png"></div>
+    </a>
+    <a href="https://softmachine.dev/webring/linuxring/redirect?url=https%3A%2F{YOURSITE}%2F&go=next">→</a>
+</div>
+	    </textarea>
+
+	    <p>You may also generate widget code here:</p>
+	    <label for="input">Enter your URL:</label>
+	    <input type="text" id="input" name="url" />
+	    <button onclick="widgetPrint()">Generate</button>
+	    <textarea id="output"></textarea>
+
+	    <script>
+		function widgetPrint() {
+			var input = document.getElementById("input").value;
+			console.log("input");
+			let url = input.replace('https://', '');
+			let code = document.getElementById("widget").innerHTML;
+			let out = code.replaceAll("{YOURSITE}", url);
+			console.log("out");
+			document.getElementById("output").innerHTML = code.replaceAll("{YOURSITE}", url);
+		}
+	    </script>
+
 	  </div>
 	  <div class="element" style="text-align: left;">
 	    <p>The default icon is Tux. You can replace "tux" with any of the <a href="icons.txt">following icons</a>. If your OS is missing, I will automatically add it when you join.</p>
@@ -695,7 +733,7 @@ on the internet.</td>
         <td>Personal site built with Nix (spoonful)</td>
 </tr>
 <tr>
-        <td><img class="icon" src="icon/debiam.png"><img class="icon" src="icon/raspbian.png"><img class="icon" src="icon/arch.png"><img class="icon" src="icon/freebsd.png"></td>
+        <td><img class="icon" src="icon/debian.png"><img class="icon" src="icon/raspbian.png"><img class="icon" src="icon/arch.png"><img class="icon" src="icon/freebsd.png"></td>
         <td><a href="https://computatrum.nekoweb.org/">computatrum.nekoweb.org</a></td>
         <td>Board of Computatrum, computer man who stuck in 2012 posts computery things and random thoughs</td>
 </tr>
