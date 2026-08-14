@@ -132,6 +132,8 @@
 		'https://restruct.nekoweb.org/',
 		'https://oli.xenia.gay/',
 		'https://sophii.xyz/',
+		'https://windigone.nekoweb.org',
+		'https://korin.neocities.org/',
 
 	];
 
