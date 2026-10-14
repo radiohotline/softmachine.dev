@@ -5,9 +5,15 @@
 	<description>The Weight of Comfort</description>
 	<link>https://softmachine.dev</link>
 	<lastBuildDate>	
-		2026-07-26 00:00:00
+		2026-10-11 00:00:00
 	</lastBuildDate>
 	<ttl>20000</ttl>
+
+	<item>
+		<title>On AI, Extinction, and Revolution</title>
+		<link>http://softmachine.dev/txt/ai.txt</link>
+		<description>Thoughts in the form of a winding ramble</description>
+	</item>
 
 	<item>
 		<title>"The Bullet" and "How Dare The World Go On"</title>

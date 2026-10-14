@@ -1,10 +1,5 @@
 <tr>
-	<td><img class="icon" src="icon/arch.png"></td>
-	<td><a href="https://windigone.nekoweb.org">windigone.nekoweb.org</a></td>
-	<td>Just a small silly site where I talk about whatever comes in my mind.</td>
-</tr>
-<tr>
-	<td><img class="icon" src="icon/void.png"></td>
-	<td><a href="https://korin.neocities.org/">korin.neocities.org</a></td>
-	<td>A silly website where I blog, share photos, and talk a ton about linux!</td>
+	<td><img class="icon" src="icon/debian.png"></td>
+	<td><a href="https://gentlemanofleisure.neocities.org/">gentlemanofleisure.neocities.org</a></td>
+	<td>All of the varied stuff I'm doing</td>
 </tr>

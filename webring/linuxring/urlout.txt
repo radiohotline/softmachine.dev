@@ -1,2 +1,1 @@
-'https://windigone.nekoweb.org',
-'https://korin.neocities.org/',
+'https://gentlemanofleisure.neocities.org/',

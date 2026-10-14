@@ -18,6 +18,7 @@
 				document.body.textContent = "Missing parameters.";
 			} else {
 				let index = window.sites.indexOf(currentUrl);
+				console.log("index:",index);
 
 				if (index === -1) {
 					document.body.textContent = "Site not found in webring.";
