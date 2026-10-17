@@ -142,6 +142,7 @@
 		'https://aaronj.sh/',
 		'https://7vtia.wedjat.city/',
 		'https://gentlemanofleisure.neocities.org/',
+		'https://crispy-caesus.eu/',
 	];
 
 	window.sites = sites;

@@ -1,5 +1,5 @@
 <tr>
-	<td><img class="icon" src="icon/debian.png"></td>
-	<td><a href="https://gentlemanofleisure.neocities.org/">gentlemanofleisure.neocities.org</a></td>
-	<td>All of the varied stuff I'm doing</td>
+	<td><img class="icon" src="icon/chimera.png"><img class="icon" src="icon/nura.png"><img class="icon" src="icon/alpine.png"></td>
+	<td><a href="https://crispy-caesus.eu/">crispy-caesus.eu</a></td>
+	<td>My personal website. I mostly try to link to everything available by me online. I also try to link other things I find interesting.</td>
 </tr>
