@@ -143,6 +143,8 @@
 		'https://7vtia.wedjat.city/',
 		'https://gentlemanofleisure.neocities.org/',
 		'https://crispy-caesus.eu/',
+		'https://ikkqqstudio.codeberg.page/',
+		'https://mishka.nekoweb.org/',
 	];
 
 	window.sites = sites;
