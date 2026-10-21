@@ -66,11 +66,11 @@ The system/distro you use (for the icon):
 		text-decoration: none;
 	}
     </style>
-    <a href="https://softmachine.dev/webring/linuxring/redirect?url=https%3A%2F{YOURSITE}%2F&go=prev">←</a>
+    <a href="https://softmachine.dev/webring/linuxring/redirect?url=https%3A%2F%2F{YOURSITE}%2F&go=prev">←</a>
     <a href="https://softmachine.dev/webring/linuxring">
 	    <div>*nixRing<br><img style="height: 25px;" src="https://softmachine.dev/webring/linuxring/icon/tux.png"></div>
     </a>
-    <a href="https://softmachine.dev/webring/linuxring/redirect?url=https%3A%2F{YOURSITE}%2F&go=next">→</a>
+    <a href="https://softmachine.dev/webring/linuxring/redirect?url=https%3A%2F%2F{YOURSITE}%2F&go=next">→</a>
 </div>
 	    </textarea>
 
@@ -83,11 +83,11 @@ The system/distro you use (for the icon):
 	    <script>
 		function widgetPrint() {
 			var input = document.getElementById("input").value;
-			console.log("input");
-			let url = input.replace('https://', '');
+			console.log(input);
+			let url = input.replace(/^https?:\/\/|\/$/g, '');
 			let code = document.getElementById("widget").innerHTML;
 			let out = code.replaceAll("{YOURSITE}", url);
-			console.log("out");
+			console.log(out);
 			document.getElementById("output").innerHTML = code.replaceAll("{YOURSITE}", url);
 		}
 	    </script>
@@ -103,7 +103,7 @@ The system/distro you use (for the icon):
 		<h2>Members</h2>
 		<table id="members">
 			<tr>
-				<td><img class="icon" src="icon/void.png"><img class="icon" src="icon/devuan.png"><img class="icon" src="icon/plan9.png"><img class="icon" src="icon/freebsd.png"></td>
+				<td><img class="icon" src="icon/void.png"><img class="icon" src="icon/alpine.png"><img class="icon" src="icon/plan9.png"><img class="icon" src="icon/freebsd.png"></td>
 				<td><a href="https://softmachine.dev">softmachine.dev</a></td>
 				<td>Soft Machine is a corner for my thoughts, art, music, and writing &mdash; a piece of me.</td>
 			</tr>
@@ -684,7 +684,7 @@ on the internet.</td>
 </tr>
 <tr>
         <td><img class="icon" src="icon/devuan.png"></td>
-        <td><a href="http://arc-x.org/">http:arc-x.org</a></td>
+        <td><a href="http://arc-x.org/">arc-x.org</a></td>
         <td>personal hardware and software tinkering, custom programming language, custom os.</td>
 </tr>
 <tr>
@@ -758,11 +758,6 @@ on the internet.</td>
         <td>a personal website, linking to my blog, im porting stuff from my gopherhole (gopher://sophii.xyz) so its a bit barren right now.</td>
 </tr>
 <tr>
-        <td><img class="icon" src="icon/arch.png"></td>
-        <td><a href="https://windigone.nekoweb.org">windigone.nekoweb.org</a></td>
-        <td>Just a small silly site where I talk about whatever comes in my mind.</td>
-</tr>
-<tr>
         <td><img class="icon" src="icon/void.png"></td>
         <td><a href="https://korin.neocities.org/">korin.neocities.org</a></td>
         <td>A silly website where I blog, share photos, and talk a ton about linux!</td>
@@ -826,6 +821,11 @@ on the internet.</td>
         <td><img class="icon" src="icon/nixos.png"></td>
         <td><a href="https://mishka.nekoweb.org/">mishka.nekoweb.org</a></td>
         <td>personal website of a queer and disabled compsci student!</td>
+</tr>
+<tr>
+        <td><img class="icon" src="icon/arch.png"></td>
+        <td><a href="https://paemuri.com/">paemuri.com</a></td>
+        <td>It's just my personal website.</td>
 </tr>
 
 

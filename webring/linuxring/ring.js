@@ -131,7 +131,6 @@
 		'https://restruct.nekoweb.org/',
 		'https://oli.xenia.gay/',
 		'https://sophii.xyz/',
-		'https://windigone.nekoweb.org/',
 		'https://korin.neocities.org/',
 		'https://deadcoffee.net/',
 		'https://trebrock.net/',
@@ -145,6 +144,7 @@
 		'https://crispy-caesus.eu/',
 		'https://ikkqqstudio.codeberg.page/',
 		'https://mishka.nekoweb.org/',
+		'https://paemuri.com/',
 	];
 
 	window.sites = sites;
