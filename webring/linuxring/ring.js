@@ -143,8 +143,9 @@
 		'https://gentlemanofleisure.neocities.org/',
 		'https://crispy-caesus.eu/',
 		'https://ikkqqstudio.codeberg.page/',
-		'https://mishka.nekoweb.org/',
+		'https://mishka.gay/',
 		'https://paemuri.com/',
+		'https://lzg.info/',
 	];
 
 	window.sites = sites;

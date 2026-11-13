@@ -5,9 +5,16 @@
 	<description>The Weight of Comfort</description>
 	<link>https://softmachine.dev</link>
 	<lastBuildDate>	
-		2026-10-11 00:00:00
+		2026-10-29 00:16:00
 	</lastBuildDate>
 	<ttl>20000</ttl>
+
+	<item>
+		<title>Two new "blog" "posts"</title>
+		<link>https://tech.softmachine.dev/blog/setup</link>
+		<description>In addition to what is linked, a lot of text has been added through the tech site</description>
+	</item>
+
 
 	<item>
 		<title>On AI, Extinction, and Revolution</title>
